@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/SceneSprites/Dead Forest Asset Pack.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Author note.txt
+    - Assets/SceneSprites/Dead Forest Asset Pack/Author note.txt.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/DeadForestBGSplash.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/DeadForestBGSplash.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Back.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Back.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Front.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Front.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Mid.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Mid.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest Tileset32x32.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest Tileset32x32.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_0.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_0.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_1.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_1.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_2.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_2.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_3.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_3.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_4.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_4.png.meta
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_Foreground.png
+    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_Foreground.png.meta
+    - Assets/SceneSprites/Wasteland-Files.png
+    - Assets/SceneSprites/Wasteland-Files.png.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-bg.png
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-bg.png.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-close-trees.png
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-close-trees.png.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-far-trees.png
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-far-trees.png.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-mid-trees.png
+    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-mid-trees.png.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack/license.txt
+    - Assets/SceneSprites/parallax_demon_woods_pack/license.txt.meta
+    - Assets/SceneSprites/parallax_demon_woods_pack/parallax_demonWoods.pyxel
+    - Assets/SceneSprites/parallax_demon_woods_pack/parallax_demonWoods.pyxel.meta
+    - Assets/Scenes/Game.unity
+    - Assets/Scripts/RepeatingBackgound.cs
+    - Assets/Scripts/RepeatingBackgound.cs.meta
+    - Assets/Sounds.meta
+    - Assets/Sounds/mixkit-money-bag-drop-1989.wav
+    - Assets/Sounds/mixkit-money-bag-drop-1989.wav.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_0.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_0.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_1.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_1.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_10.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_10.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_11.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_11.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_12.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_12.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_13.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_13.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_14.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_14.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_15.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_15.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_16.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_16.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_17.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_17.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_18.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_18.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_19.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_19.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_2.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_2.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_20.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_20.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_21.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_21.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_22.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_22.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_23.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_23.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_24.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_24.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_25.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_25.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_26.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_26.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_27.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_27.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_28.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_28.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_29.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_29.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_3.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_3.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_30.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_30.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_31.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_31.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_32.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_32.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_33.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_33.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_34.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_34.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_35.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_35.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_36.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_36.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_37.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_37.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_38.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_38.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_39.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_39.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_4.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_4.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_40.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_40.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_41.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_41.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_42.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_42.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_43.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_43.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_44.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_44.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_45.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_45.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_46.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_46.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_47.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_47.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_48.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_48.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_49.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_49.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_5.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_5.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_50.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_50.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_51.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_51.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_52.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_52.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_53.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_53.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_54.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_54.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_55.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_55.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_56.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_56.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_57.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_57.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_58.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_58.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_59.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_59.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_6.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_6.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_60.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_60.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_61.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_61.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_62.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_62.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_63.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_63.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_64.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_64.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_65.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_65.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_66.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_66.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_67.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_67.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_7.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_7.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_8.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_8.asset.meta
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_9.asset
+    - Assets/Tilemap/GameTile/DeadForest Tileset32x32_9.asset.meta
+    - Assets/Tilemap/GameTile/GameTile.prefab
+    - Assets/Tilemap/GameTile/Wasteland-Files_0.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_0.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_1.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_1.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_10.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_10.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_11.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_11.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_12.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_12.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_13.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_13.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_14.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_14.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_15.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_15.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_16.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_16.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_17.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_17.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_18.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_18.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_19.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_19.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_2.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_2.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_20.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_20.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_21.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_21.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_22.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_22.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_23.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_23.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_24.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_24.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_25.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_25.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_26.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_26.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_27.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_27.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_28.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_28.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_29.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_29.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_3.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_3.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_30.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_30.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_31.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_31.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_32.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_32.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_4.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_4.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_5.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_5.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_6.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_6.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_7.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_7.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_8.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_8.asset.meta
+    - Assets/Tilemap/GameTile/Wasteland-Files_9.asset
+    - Assets/Tilemap/GameTile/Wasteland-Files_9.asset.meta
+    - Assets/Tilemap/TutorialTile/TutorialTile.prefab
+    - Assets/Tilemap/TutorialTile/TutorialTile.prefab.meta
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/TagManager.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

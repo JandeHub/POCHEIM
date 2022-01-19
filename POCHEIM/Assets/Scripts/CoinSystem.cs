@@ -6,6 +6,9 @@ public class CoinSystem : MonoBehaviour
 {
     [SerializeField]
     private GameObject coin;
+
+    private AudioSource _audio;
+
     void OnEnable()
     {
         GetComponent<CollisionSystem>().OnTakeCoin += TakeCoin;
@@ -16,9 +19,22 @@ public class CoinSystem : MonoBehaviour
         GetComponent<CollisionSystem>().OnTakeCoin -= TakeCoin;
     }
 
+    void Start()
+    {
+        _audio = GetComponent<AudioSource>();
+    }
+
     void TakeCoin()
     {
+
+        if(_audio == null)
+        {
+            Debug.LogError("Audio in Coin NULL");
+        }
+
         Debug.Log("Coin conseguido");
+
+        _audio.Play();
         coin.SetActive(false);
     }
 }
