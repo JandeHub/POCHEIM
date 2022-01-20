@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\DieSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerSystemData.cs" />
     <Compile Include="Assets\Scripts\SystemEnemyHitPlayer.cs" />
+    <Compile Include="Assets\Scripts\RepeatingBackgound.cs" />
     <Compile Include="Assets\Scripts\LoadSeceneManager.cs" />
     <Compile Include="Assets\Scripts\TeleportPlayer.cs" />
     <Compile Include="Assets\Scripts\InputSystemKeyboard.cs" />
@@ -78,7 +79,6 @@
     <Compile Include="Assets\Scripts\TeleportEffect.cs" />
     <Compile Include="Assets\Scripts\BackgroundSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerMovment.cs" />
-    <Compile Include="Assets\Scripts\RepeatingBackgound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SceneSprites\Dead Forest Asset Pack\Author note.txt" />

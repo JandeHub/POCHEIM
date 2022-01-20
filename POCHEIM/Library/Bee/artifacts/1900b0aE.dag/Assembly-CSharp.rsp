@@ -357,6 +357,7 @@
 "Assets/Scripts/PlayerMovment.cs"
 "Assets/Scripts/PlayerSystemData.cs"
 "Assets/Scripts/PoolingManager.cs"
+"Assets/Scripts/RepeatingBackgound.cs"
 "Assets/Scripts/SmileSystem.cs"
 "Assets/Scripts/SystemEnemyHitPlayer.cs"
 "Assets/Scripts/SystemPlayerHitEnemy.cs"

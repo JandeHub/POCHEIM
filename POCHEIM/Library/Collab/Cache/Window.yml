@@ -14,54 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animations/Enemy/Kas/death.anim
+    - Assets/Animations/Scene.meta
+    - Assets/Animations/Scene/Crossfade.controller
+    - Assets/Animations/Scene/Crossfade.controller.meta
+    - Assets/Animations/Scene/FadeIn.anim
+    - Assets/Animations/Scene/FadeIn.anim.meta
+    - Assets/Animations/Scene/FadeOut.anim
+    - Assets/Animations/Scene/FadeOut.anim.meta
+    - Assets/Prefabs/Kot.prefab
+    - Assets/Prefabs/Smile.prefab
     - Assets/SceneSprites/Dead Forest Asset Pack.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Author note.txt
     - Assets/SceneSprites/Dead Forest Asset Pack/Author note.txt.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/DeadForestBGSplash.png
     - Assets/SceneSprites/Dead Forest Asset Pack/DeadForestBGSplash.png.meta
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Back.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Back.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Front.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Front.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Mid.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/Clouds_Mid.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest Tileset32x32.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest Tileset32x32.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_0.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_0.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_1.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_1.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_2.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_2.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_3.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_3.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_4.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_BG_4.png.meta
-    - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_Foreground.png
     - Assets/SceneSprites/Dead Forest Asset Pack/Tiles and BG/DeadForest_Foreground.png.meta
-    - Assets/SceneSprites/Wasteland-Files.png
-    - Assets/SceneSprites/Wasteland-Files.png.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-bg.png
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-bg.png.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-close-trees.png
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-close-trees.png.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-far-trees.png
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-far-trees.png.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-mid-trees.png
-    - Assets/SceneSprites/parallax_demon_woods_pack/layers/parallax-demon-woods-mid-trees.png.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack/license.txt
-    - Assets/SceneSprites/parallax_demon_woods_pack/license.txt.meta
-    - Assets/SceneSprites/parallax_demon_woods_pack/parallax_demonWoods.pyxel
-    - Assets/SceneSprites/parallax_demon_woods_pack/parallax_demonWoods.pyxel.meta
+    - Assets/SceneSprites/TilesNoFinales/Red hood free (zipped) Folder.meta
+    - Assets/SceneSprites/TilesNoFinales/Red hood free (zipped) Folder/red hood itch
+      free Copy-Sheet.png.meta
+    - Assets/SceneSprites/TilesNoFinales/Red hood free (zipped) Folder/red hood itch
+      free.aseprite.meta
+    - Assets/SceneSprites/TilesNoFinales/idle and  alter.meta
+    - Assets/SceneSprites/TilesNoFinales/idle and  alter/idle sheet-Sheet.png.meta
+    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch hurt 2 sheet-Sheet.png.meta
+    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch jump sheet-Sheet.png.meta
+    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch light atk sheet-Sheet.png.meta
+    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch run-Sheet sheet.png.meta
+    - Assets/SceneSprites/TilesNoFinales/run turnaround-Sheet.png.meta
     - Assets/Scenes/Game.unity
-    - Assets/Scripts/RepeatingBackgound.cs
+    - Assets/Scenes/Tutorial.unity
     - Assets/Scripts/RepeatingBackgound.cs.meta
     - Assets/Sounds.meta
-    - Assets/Sounds/mixkit-money-bag-drop-1989.wav
+    - Assets/Sounds/mixkit-just-kidding-11.mp3.meta
     - Assets/Sounds/mixkit-money-bag-drop-1989.wav.meta
+    - Assets/Tilemap/GameTile.meta
     - Assets/Tilemap/GameTile/DeadForest Tileset32x32_0.asset
     - Assets/Tilemap/GameTile/DeadForest Tileset32x32_0.asset.meta
     - Assets/Tilemap/GameTile/DeadForest Tileset32x32_1.asset
@@ -199,78 +194,12 @@ MonoBehaviour:
     - Assets/Tilemap/GameTile/DeadForest Tileset32x32_9.asset
     - Assets/Tilemap/GameTile/DeadForest Tileset32x32_9.asset.meta
     - Assets/Tilemap/GameTile/GameTile.prefab
-    - Assets/Tilemap/GameTile/Wasteland-Files_0.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_0.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_1.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_1.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_10.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_10.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_11.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_11.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_12.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_12.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_13.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_13.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_14.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_14.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_15.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_15.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_16.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_16.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_17.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_17.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_18.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_18.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_19.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_19.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_2.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_2.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_20.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_20.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_21.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_21.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_22.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_22.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_23.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_23.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_24.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_24.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_25.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_25.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_26.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_26.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_27.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_27.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_28.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_28.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_29.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_29.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_3.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_3.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_30.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_30.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_31.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_31.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_32.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_32.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_4.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_4.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_5.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_5.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_6.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_6.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_7.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_7.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_8.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_8.asset.meta
-    - Assets/Tilemap/GameTile/Wasteland-Files_9.asset
-    - Assets/Tilemap/GameTile/Wasteland-Files_9.asset.meta
+    - Assets/Tilemap/GameTile/GameTile.prefab.meta
     - Assets/Tilemap/TutorialTile/TutorialTile.prefab
-    - Assets/Tilemap/TutorialTile/TutorialTile.prefab.meta
     - ProjectSettings/Physics2DSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

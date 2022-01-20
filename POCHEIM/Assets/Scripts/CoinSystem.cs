@@ -26,7 +26,7 @@ public class CoinSystem : MonoBehaviour
 
     void TakeCoin()
     {
-
+        
         if(_audio == null)
         {
             Debug.LogError("Audio in Coin NULL");
