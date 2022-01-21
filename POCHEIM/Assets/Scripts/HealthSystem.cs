@@ -10,11 +10,11 @@ public class HealthSystem : MonoBehaviour
     [SerializeField]
     private int currentHealth;
 
-    private float dazedTime;
-    public float startdazedTime;
+   
 
     private Animator _anim;
-    private SmileSystem _smileSystem;
+    private DazedSystem _dazed;
+    
 
     //public int died { get; private set; }
 
@@ -23,32 +23,17 @@ public class HealthSystem : MonoBehaviour
     private void Awake()
     {
         _anim = GetComponent<Animator>();
-        _smileSystem = GetComponent<SmileSystem>();
+        _dazed = GetComponent<DazedSystem>();
+        
     }
     void Start()
     {
         currentHealth = maxHealth;
 
-        
-
-
-    }
-   
-    void Update()
-    {
-        if(dazedTime <= 0)
-        {
-            GetComponent<SmileSystem>().speed = 2;
-        }
-        else
-        {
-            GetComponent<SmileSystem>().speed = 0;
-            dazedTime -= Time.deltaTime;
-        }
     }
     public void ReduceHealthEnemy(int damage)
     {
-        dazedTime = startdazedTime;
+        _dazed.dazedTime = _dazed.startdazedTime;
         currentHealth -= damage;
 
         _anim.SetTrigger("hurt");

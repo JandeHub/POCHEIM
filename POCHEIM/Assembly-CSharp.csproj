@@ -79,10 +79,10 @@
     <Compile Include="Assets\Scripts\TeleportEffect.cs" />
     <Compile Include="Assets\Scripts\BackgroundSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerMovment.cs" />
+    <Compile Include="Assets\Scripts\DazedSystem.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\SceneSprites\Dead Forest Asset Pack\Author note.txt" />
-    <None Include="Assets\SceneSprites\Dark_Forest\about.txt" />
+    <None Include="Assets\SceneSprites\PackMonsters\_SpriteSheetsInfo.txt" />
     <None Include="Assets\TextFonts\gebrush\Readme.txt" />
   </ItemGroup>
   <ItemGroup>

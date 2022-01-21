@@ -39,14 +39,14 @@ public class PlayerMovment : MonoBehaviour
         {
             
             _anim.SetBool("run", true);
-            transform.localScale = new Vector2(2.5f, 2.5f);
+            transform.localScale = new Vector2(3.5f, 3.5f);
         }
 
         else
             if (_input.hor < 0)
         {
             _anim.SetBool("run", true);
-            transform.localScale = new Vector2(-2.5f, 2.5f);
+            transform.localScale = new Vector2(-3.5f, 3.5f);
 
         }
         if (_input.hor == 0)

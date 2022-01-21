@@ -4,29 +4,32 @@ using UnityEngine;
 
 public class RepeatingBackgound : MonoBehaviour
 {
-    private BoxCollider2D groundCollider;
-    private float groundHoriontalLength;
+    private float length;
+    private float startpos;
 
-    void Awake()
-    {
-        groundCollider = GetComponent<BoxCollider2D>();
-    }
+    [SerializeField]
+    private GameObject _camera;
+    [SerializeField]
+    private float parallaxEffect;    
+    
 
     void Start()
     {
-        groundHoriontalLength = groundCollider.size.x;
+        startpos = transform.position.x;
+        length = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
     void Update()
     {
-        if(transform.position.x < -groundHoriontalLength)
-        {
-            RepositionBackground();
-        }
+        float temp = (_camera.transform.position.x * (1 - parallaxEffect));
+        float distance = (_camera.transform.position.x * parallaxEffect);
+
+        transform.position = new Vector3(startpos + distance, transform.position.y, transform.position.z);
+
+        if (temp > startpos + length)
+            startpos += length;
+        else if (temp < startpos - length)
+            startpos -= length;
     }
-    
-    void RepositionBackground()
-    {
-        transform.Translate(Vector2.right * groundHoriontalLength * 4);
-    }
+   
 }

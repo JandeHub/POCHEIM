@@ -347,6 +347,7 @@
 "Assets/Scripts/BackgroundSystem.cs"
 "Assets/Scripts/CoinSystem.cs"
 "Assets/Scripts/CollisionSystem.cs"
+"Assets/Scripts/DazedSystem.cs"
 "Assets/Scripts/DieSystem.cs"
 "Assets/Scripts/EnemyGenerator.cs"
 "Assets/Scripts/GroundSystemChecker.cs"
