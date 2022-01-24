@@ -14,10 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Animations/Monster4Pack_0.controller
-    - Assets/Animations/Monster4Pack_0.controller.meta
-    - Assets/Animations/New Animation.anim
-    - Assets/Animations/New Animation.anim.meta
+    - Assets/Animations/Enemy/Kas/Monster4Pack_0 (1).controller
+    - Assets/Animations/Enemy/Kas/Monster4Pack_0 (1).controller.meta
+    - Assets/Animations/Enemy/Kas/attack.anim
+    - Assets/Animations/Enemy/Kas/death.anim
+    - Assets/Animations/Enemy/Kas/fly.anim
+    - Assets/Animations/Enemy/Kas/fly.anim.meta
+    - Assets/Animations/Enemy/Kas/hurt.anim
+    - Assets/Animations/Enemy/Kas/hurt.anim.meta
     - Assets/Animations/Player.meta
     - Assets/Animations/Player/attack.anim
     - Assets/Animations/Player/attack.anim.meta
@@ -36,114 +40,88 @@ MonoBehaviour:
     - Assets/Prefabs/Kot.prefab.meta
     - Assets/Prefabs/Player.prefab
     - Assets/Prefabs/Smile.prefab
+    - Assets/SceneSprites/GameTiles/MonstersBGLayer0.png.meta
+    - Assets/SceneSprites/GameTiles/MonstersBGLayer1.png.meta
+    - Assets/SceneSprites/GameTiles/MonstersBGLayer2.png.meta
+    - Assets/SceneSprites/GameTiles/MonstersBGLayer3.png.meta
+    - Assets/SceneSprites/GameTiles/MonstersBGLayer4.png.meta
+    - Assets/SceneSprites/GameTiles/MonstersBGLayer5.png.meta
+    - Assets/SceneSprites/GameTiles/MonstersBGLayer6.png.meta
+    - Assets/SceneSprites/Materials.meta
+    - Assets/SceneSprites/Materials/spr_coin_ama.mat
+    - Assets/SceneSprites/Materials/spr_coin_ama.mat.meta
+    - Assets/SceneSprites/MenuTiles.meta
     - Assets/SceneSprites/PackMonsters.meta
-    - Assets/SceneSprites/PackMonsters/GameEricBackground.png
     - Assets/SceneSprites/PackMonsters/GameEricBackground.png.meta
     - Assets/SceneSprites/PackMonsters/Materials.meta
     - Assets/SceneSprites/PackMonsters/Materials/MonstersBGLayer6.mat
     - Assets/SceneSprites/PackMonsters/Materials/MonstersBGLayer6.mat.meta
-    - Assets/SceneSprites/PackMonsters/Monster1Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster1Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster1Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster1Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster1Pack.png
     - Assets/SceneSprites/PackMonsters/Monster1Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster2Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster2Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster2Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster2Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster2Pack.png
     - Assets/SceneSprites/PackMonsters/Monster2Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster3Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster3Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster3Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster3Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster3Pack.png
     - Assets/SceneSprites/PackMonsters/Monster3Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster4Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster4Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster4Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster4Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster4Pack.png
     - Assets/SceneSprites/PackMonsters/Monster4Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster5Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster5Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster5Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster5Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster5Pack.png
     - Assets/SceneSprites/PackMonsters/Monster5Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster5PackBomb.gif
     - Assets/SceneSprites/PackMonsters/Monster5PackBomb.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster6Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster6Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster6Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster6Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster6Pack.png
     - Assets/SceneSprites/PackMonsters/Monster6Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster7Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster7Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster7Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster7Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster7Pack.png
     - Assets/SceneSprites/PackMonsters/Monster7Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster8Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster8Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster8Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster8Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster8Pack.png
     - Assets/SceneSprites/PackMonsters/Monster8Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/Monster8PackDefense.gif
     - Assets/SceneSprites/PackMonsters/Monster8PackDefense.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster9Pack.aseprite
     - Assets/SceneSprites/PackMonsters/Monster9Pack.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/Monster9Pack.gif
     - Assets/SceneSprites/PackMonsters/Monster9Pack.gif.meta
-    - Assets/SceneSprites/PackMonsters/Monster9Pack.png
     - Assets/SceneSprites/PackMonsters/Monster9Pack.png.meta
-    - Assets/SceneSprites/PackMonsters/MonsterPackBackground.aseprite
     - Assets/SceneSprites/PackMonsters/MonsterPackBackground.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/MonsterPackTile.png
-    - Assets/SceneSprites/PackMonsters/MonsterPackTile.png.meta
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer0.png
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer0.png.meta
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer1.png
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer1.png.meta
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer2.png
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer2.png.meta
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer3.png
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer3.png.meta
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer4.png
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer4.png.meta
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer5.png
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer5.png.meta
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer6.png
-    - Assets/SceneSprites/PackMonsters/MonstersBGLayer6.png.meta
-    - Assets/SceneSprites/PackMonsters/Tile.aseprite
     - Assets/SceneSprites/PackMonsters/Tile.aseprite.meta
-    - Assets/SceneSprites/PackMonsters/_SpriteSheetsInfo.txt
     - Assets/SceneSprites/PackMonsters/_SpriteSheetsInfo.txt.meta
-    - Assets/SceneSprites/TilesNoFinales/Red hood free (zipped) Folder/red hood itch
+    - Assets/SceneSprites/PlayerTiles.meta
+    - Assets/SceneSprites/PlayerTiles/Red hood free (zipped) Folder/red hood itch
       free Copy-Sheet.png.meta
-    - Assets/SceneSprites/TilesNoFinales/idle and  alter/idle sheet-Sheet.png.meta
-    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch hurt 2 sheet-Sheet.png.meta
-    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch jump sheet-Sheet.png.meta
-    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch light atk sheet-Sheet.png.meta
-    - Assets/SceneSprites/TilesNoFinales/idle and  alter/itch run-Sheet sheet.png.meta
+    - Assets/SceneSprites/PlayerTiles/idle and  alter/idle sheet-Sheet.png.meta
+    - Assets/SceneSprites/PlayerTiles/idle and  alter/itch hurt 2 sheet-Sheet.png.meta
+    - Assets/SceneSprites/PlayerTiles/idle and  alter/itch jump sheet-Sheet.png.meta
+    - Assets/SceneSprites/PlayerTiles/idle and  alter/itch light atk sheet-Sheet.png.meta
+    - Assets/SceneSprites/PlayerTiles/idle and  alter/itch run-Sheet sheet.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/bgrd_tree1.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/bgrd_tree2.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/bgrd_tree3.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/bgrd_tree4.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/bgrd_tree5.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/castle_env.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/decorative_obj.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/env_mon.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/env_rock.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/main_background.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/top_far_bgrnd.png.meta
+    - Assets/SceneSprites/TutorialTiles/Sprites/wood_env.png.meta
+    - Assets/SceneSprites/coin.png
+    - Assets/SceneSprites/coin.png.meta
+    - Assets/SceneSprites/spr_coin_ama.png
+    - Assets/SceneSprites/spr_coin_ama.png.meta
     - Assets/Scenes/Game.unity
     - Assets/Scenes/Tutorial.unity
-    - Assets/Scripts/DazedSystem.cs
     - Assets/Scripts/DazedSystem.cs.meta
-    - Assets/Scripts/HealthSystem.cs
-    - Assets/Scripts/PlayerMovment.cs
-    - Assets/Scripts/RepeatingBackgound.cs
     - Assets/Tilemap/GameTile/GameTile.prefab
     - Assets/Tilemap/GameTile/MonsterPackTile.asset
     - Assets/Tilemap/GameTile/MonsterPackTile.asset.meta
-    - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/Physics2DSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

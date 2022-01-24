@@ -24,14 +24,16 @@ public class CoinSystem : MonoBehaviour
         _audio = GetComponent<AudioSource>();
     }
 
-    void TakeCoin()
+    private void Update()
     {
-        
-        if(_audio == null)
+        if (_audio == null)
         {
             Debug.LogError("Audio in Coin NULL");
         }
-
+    }
+    void TakeCoin()
+    {
+        
         Debug.Log("Coin conseguido");
 
         _audio.Play();

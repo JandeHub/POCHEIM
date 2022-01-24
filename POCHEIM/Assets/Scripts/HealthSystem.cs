@@ -10,25 +10,27 @@ public class HealthSystem : MonoBehaviour
     [SerializeField]
     private int currentHealth;
 
-   
-
     private Animator _anim;
     private DazedSystem _dazed;
+    private HealthSystemUI _healthUI;
     
 
     //public int died { get; private set; }
 
     public event Action OnDie = delegate { };
+    public event Action<int> MaxHealth = delegate { };
+    public event Action<int> UpdateHealth = delegate { };
 
-    private void Awake()
+
+    void Start()
     {
         _anim = GetComponent<Animator>();
         _dazed = GetComponent<DazedSystem>();
-        
-    }
-    void Start()
-    {
+        _healthUI = GetComponent<HealthSystemUI>();
+
+
         currentHealth = maxHealth;
+        MaxHealth(maxHealth);
 
     }
     public void ReduceHealthEnemy(int damage)
@@ -46,6 +48,10 @@ public class HealthSystem : MonoBehaviour
     public void ReduceHealthPlayer(int damage)
     {
         _anim.SetTrigger("hurt");
+
+        currentHealth -= damage;
+        UpdateHealth(currentHealth);
+
         if (currentHealth <= 0)
         {
             OnDie();
