@@ -47,7 +47,6 @@ GameObject:
   - component: {fileID: 26019799316433132}
   - component: {fileID: 26019799316433135}
   - component: {fileID: 26019799316433134}
-  - component: {fileID: 26019799316433121}
   - component: {fileID: 26019799316433120}
   m_Layer: 7
   m_Name: Kot
@@ -242,24 +241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1456bb6a064011a4cbe37a59866dafef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &26019799316433121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 26019799316433124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c816a93ec5809e140962ef396662419e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackHitbox: {fileID: 26019799207670696}
-  attackRange: 0.5
-  damage: 20
-  player:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &26019799316433120
 MonoBehaviour:
   m_ObjectHideFlags: 0

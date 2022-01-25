@@ -59,29 +59,31 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\HealthSystem.cs" />
-    <Compile Include="Assets\Scripts\EnemyGenerator.cs" />
-    <Compile Include="Assets\Scripts\CollisionSystem.cs" />
+    <Compile Include="Assets\Scripts\EnComun\HealthSystem.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyGenerator.cs" />
+    <Compile Include="Assets\Scripts\EnComun\CollisionSystem.cs" />
     <Compile Include="Assets\Scripts\CoinSystem.cs" />
-    <Compile Include="Assets\Scripts\SystemPlayerHitEnemy.cs" />
+    <Compile Include="Assets\Scripts\Player\SystemPlayerHitEnemy.cs" />
     <Compile Include="Assets\Scripts\PoolingManager.cs" />
-    <Compile Include="Assets\Scripts\DazedSystem.cs" />
+    <Compile Include="Assets\Scripts\Enemies\DazedSystem.cs" />
     <Compile Include="Assets\Scripts\PauseScene.cs" />
-    <Compile Include="Assets\Scripts\SmileSystem.cs" />
-    <Compile Include="Assets\Scripts\DieSystem.cs" />
-    <Compile Include="Assets\Scripts\PlayerSystemData.cs" />
-    <Compile Include="Assets\Scripts\SystemEnemyCloseAttack.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SmileSystem.cs" />
+    <Compile Include="Assets\Scripts\EnComun\DieSystem.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerSystemData.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SystemEnemyCloseAttack.cs" />
     <Compile Include="Assets\Scripts\RepeatingBackgound.cs" />
+    <Compile Include="Assets\Scripts\PlayCinematics.cs" />
     <Compile Include="Assets\Scripts\LoadSeceneManager.cs" />
     <Compile Include="Assets\Scripts\TeleportPlayer.cs" />
     <Compile Include="Assets\Scripts\InputSystemKeyboard.cs" />
-    <Compile Include="Assets\Scripts\GroundSystemChecker.cs" />
-    <Compile Include="Assets\Scripts\WeaponSystemCooldown.cs" />
+    <Compile Include="Assets\Scripts\Player\GroundSystemChecker.cs" />
+    <Compile Include="Assets\Scripts\EnComun\WeaponSystemCooldown.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SystemEnemyRangeAttack.cs" />
+    <Compile Include="Assets\Scripts\Enemies\KotSystem.cs" />
     <Compile Include="Assets\Scripts\BackgroundSystem.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovment.cs" />
-    <Compile Include="Assets\Scripts\KotSystem.cs" />
-    <Compile Include="Assets\Scripts\SystemEnemyRangeAttack.cs" />
     <Compile Include="Assets\Scripts\HealthSystemUI.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovment.cs" />
+    <Compile Include="Assets\Scripts\VolumeSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SceneSprites\PackMonsters\_SpriteSheetsInfo.txt" />

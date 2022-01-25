@@ -5,38 +5,28 @@ using UnityEngine;
 public class CoinSystem : MonoBehaviour
 {
     [SerializeField]
-    private GameObject coin;
-
     private AudioSource _audio;
 
-    void OnEnable()
-    {
-        GetComponent<CollisionSystem>().OnTakeCoin += TakeCoin;
-    }
-
-    void OnDisable()
-    {
-        GetComponent<CollisionSystem>().OnTakeCoin -= TakeCoin;
-    }
+    private SpriteRenderer _sp;
 
     void Start()
     {
         _audio = GetComponent<AudioSource>();
+        _sp = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (_audio == null)
+        if(collision.CompareTag("Player"))
         {
-            Debug.LogError("Audio in Coin NULL");
+            _sp.enabled = false;
+
+            _audio.Play();
+
+            Destroy(gameObject, 0.5f);
+
+            
         }
     }
-    void TakeCoin()
-    {
-        
-        Debug.Log("Coin conseguido");
-
-        _audio.Play();
-        coin.SetActive(false);
-    }
+   
 }
