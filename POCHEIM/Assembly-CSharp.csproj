@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\HealthSystemUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovment.cs" />
     <Compile Include="Assets\Scripts\SoundsSystemData.cs" />
+    <Compile Include="Assets\Scripts\PowerUpPick.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SceneSprites\PackMonsters\_SpriteSheetsInfo.txt" />

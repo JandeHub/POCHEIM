@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class CoinSystem : MonoBehaviour
 {
-    [SerializeField]
-    private AudioSource _audio;
 
     private SpriteRenderer _sp;
 
     void Start()
     {
-        _audio = GetComponent<AudioSource>();
         _sp = GetComponent<SpriteRenderer>();
     }
 
@@ -21,7 +18,7 @@ public class CoinSystem : MonoBehaviour
         {
             _sp.enabled = false;
 
-            _audio.Play();
+            FindObjectOfType<AudioManager>().Play("TakeCoin");
 
             Destroy(gameObject, 0.5f);
 

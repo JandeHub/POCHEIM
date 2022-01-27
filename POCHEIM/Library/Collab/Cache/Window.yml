@@ -15,6 +15,36 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - Assets/Music & Sounds.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Field.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Field.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Ruins.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Ruins.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Snow.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Snow.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Volcano.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Volcano.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Combat - Fighting
+      the Monstrosity Phase I.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Combat - Fighting
+      the Monstrosity Phase I.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Dungeon - Puzzling
+      Moments.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Dungeon - Puzzling
+      Moments.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
+      by the Sea Loop.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
+      by the Sea Loop.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
+      by the Sea Start.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
+      by the Sea Start.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Story - The Princess'
+      Lullaby.wav
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Story - The Princess'
+      Lullaby.wav.meta
+    - Assets/Music & Sounds/Sounds.meta
     - Assets/Music & Sounds/Sounds/coinSound.wav
     - Assets/Music & Sounds/Sounds/coinSound.wav.meta
     - Assets/Music & Sounds/Volume.meta
@@ -28,13 +58,9 @@ MonoBehaviour:
     - Assets/Scenes/Tutorial.unity
     - Assets/Scripts/LoadSeceneManager.cs
     - Assets/Scripts/LoadSeceneManager.cs.meta
-    - Assets/Scripts/Scene/LoadSeceneManager.cs
     - Assets/Scripts/Scene/LoadSeceneManager.cs.meta
-    - Assets/Sounds/Volume.meta
-    - Assets/Sounds/Volume/Master.mixer
-    - Assets/Sounds/Volume/Master.mixer.meta
     - 
-    m_Values: 0000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

@@ -6,9 +6,9 @@ using System;
 public class HealthSystem : MonoBehaviour
 {
     [SerializeField]
-    private int maxHealth;
+    private float maxHealth;
     [SerializeField]
-    private int currentHealth;
+    public float currentHealth;
 
     private Animator _anim;
     private DazedSystem _dazed;
@@ -18,8 +18,8 @@ public class HealthSystem : MonoBehaviour
     //public int died { get; private set; }
 
     public event Action OnDie = delegate { };
-    public event Action<int> MaxHealth = delegate { };
-    public event Action<int> UpdateHealth = delegate { };
+    public event Action<float> MaxHealth = delegate { };
+    public event Action<float> UpdateHealth = delegate { };
 
     public event Action JumpGameOver = delegate { };
 
@@ -51,14 +51,22 @@ public class HealthSystem : MonoBehaviour
     {
         _anim.SetTrigger("hurt");
 
+        FindObjectOfType<AudioManager>().Play("HurtPlayer");
         currentHealth -= damage;
-        UpdateHealth(currentHealth);
+        
 
         if (currentHealth <= 0)
         {
             JumpGameOver();
         }
     }
+
+    void FixedUpdate()
+    {
+        UpdateHealth(currentHealth);
+        
+    }
+    
 
     
 

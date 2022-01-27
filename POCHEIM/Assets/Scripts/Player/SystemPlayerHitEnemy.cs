@@ -40,11 +40,11 @@ public class SystemPlayerHitEnemy : MonoBehaviour
     void canPunch()
     {
         if (!_cooldown.cooling)
-        {
+        {   
+            FindObjectOfType<AudioManager>().Play("SwordSlash");
             _anim.SetTrigger("attackMelee");
+            
             _cooldown.cooling = true;
-
-           
 
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackHitbox.position, attackRange, enemies);
 

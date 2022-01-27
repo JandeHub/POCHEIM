@@ -44,9 +44,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0.1
+  - name: SwordSlash
+    clip: {fileID: 8300000, guid: e7e60a584724d0a46a5b765d27640759, type: 3}
+    volume: 1
+    pitch: 2
     loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: HurtPlayer
+    clip: {fileID: 8300000, guid: 9f51fc0fdae504942a16237bd2614a3e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: TakeCoin
+    clip: {fileID: 8300000, guid: f8b5b18fe390bab44b5933861ab462d9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
     source: {fileID: 0}

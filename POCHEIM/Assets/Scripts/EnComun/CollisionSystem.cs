@@ -5,20 +5,20 @@ using System;
 
 public class CollisionSystem : MonoBehaviour
 {
-    public event Action OnTakeCoin = delegate { };
+    public event Action PickUpPowerUp = delegate { };
     public event Action DamageBullet = delegate { };
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            OnTakeCoin();
+           PickUpPowerUp();
 
             
         }
 
-        if(collision.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player")
         {
             DamageBullet();
             

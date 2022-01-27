@@ -366,6 +366,7 @@
 "Assets/Scripts/Player/PlayerSystemData.cs"
 "Assets/Scripts/Player/SystemPlayerHitEnemy.cs"
 "Assets/Scripts/PoolingManager.cs"
+"Assets/Scripts/PowerUpPick.cs"
 "Assets/Scripts/RepeatingBackgound.cs"
 "Assets/Scripts/Scene/CanvasUIScripts.cs"
 "Assets/Scripts/Scene/LoadSeceneManager.cs"

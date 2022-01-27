@@ -21,13 +21,13 @@ public class HealthSystemUI : MonoBehaviour
         GameObject.FindWithTag("Player").GetComponent<HealthSystem>().UpdateHealth -= SetHealth;
     }
 
-    void SetMaxHealth(int health)
+    void SetMaxHealth(float health)
     {
         sliderHealth.maxValue = health;
         sliderHealth.value = health;
     }
     
-    void SetHealth(int health)
+    void SetHealth(float health)
     {
         sliderHealth.value = health;
     }
