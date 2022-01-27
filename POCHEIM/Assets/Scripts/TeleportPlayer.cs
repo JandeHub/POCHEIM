@@ -10,8 +10,6 @@ public class TeleportPlayer : MonoBehaviour
     [SerializeField]
     private float seconds;
 
-
-
     private Animator _anim;
     private PlayerMovment _player;
 
@@ -25,8 +23,7 @@ public class TeleportPlayer : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //other.GetComponent<Rigidbody2D>().gravityScale = 0;
-        
+       
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 

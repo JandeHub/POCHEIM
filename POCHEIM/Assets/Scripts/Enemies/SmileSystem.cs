@@ -24,7 +24,11 @@ public class SmileSystem : MonoBehaviour
 
     void Start()
     {
-        
+        if (GameObject.FindWithTag("Player") != null)
+        {
+            player = GameObject.FindWithTag("Player").transform;
+        }
+
         _rb = GetComponent<Rigidbody2D>();
         _dieSystem = GetComponent<DieSystem>();
         
@@ -42,7 +46,10 @@ public class SmileSystem : MonoBehaviour
         }
         else if(Mathf.Abs(distancePlayer) > agroDistance)
         {
-            OnAttack();
+            if (!_dieSystem.dead)
+            {
+                OnAttack();
+            }
         }
 
     }
@@ -51,16 +58,19 @@ public class SmileSystem : MonoBehaviour
     {
         if (!_dieSystem.dead)
         {
-            if (transform.position.x < player.position.x)
+            if (player != null)
             {
-                _rb.velocity = new Vector2(enemySpeed, 0);
-                transform.localScale = new Vector2(2f, 2f);
-            }
-            
-            else
-            {
-                _rb.velocity = new Vector2(-enemySpeed, 0);
-                transform.localScale = new Vector2(-2f, 2f);
+                if (transform.position.x < player.position.x)
+                {
+                    _rb.velocity = new Vector2(enemySpeed, 0);
+                    transform.localScale = new Vector2(-4f, 4f);
+                }
+
+                else
+                {
+                    _rb.velocity = new Vector2(-enemySpeed, 0);
+                    transform.localScale = new Vector2(4f, 4f);
+                }
             }
         }
     }

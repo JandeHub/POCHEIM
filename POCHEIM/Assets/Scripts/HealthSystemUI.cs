@@ -8,16 +8,17 @@ public class HealthSystemUI : MonoBehaviour
     [SerializeField]
     private Slider sliderHealth;
 
+   
     void OnEnable()
     {
-        GameObject.Find("Player").GetComponent<HealthSystem>().MaxHealth += SetMaxHealth;
-        GameObject.Find("Player").GetComponent<HealthSystem>().UpdateHealth += SetHealth;
+        GameObject.FindWithTag("Player").GetComponent<HealthSystem>().MaxHealth += SetMaxHealth;
+        GameObject.FindWithTag("Player").GetComponent<HealthSystem>().UpdateHealth += SetHealth;
     }
 
     void OnDisable()
     {
-        GameObject.Find("Player").GetComponent<HealthSystem>().MaxHealth -= SetMaxHealth;
-        GameObject.Find("Player").GetComponent<HealthSystem>().UpdateHealth -= SetHealth;
+        GameObject.FindWithTag("Player").GetComponent<HealthSystem>().MaxHealth -= SetMaxHealth;
+        GameObject.FindWithTag("Player").GetComponent<HealthSystem>().UpdateHealth -= SetHealth;
     }
 
     void SetMaxHealth(int health)

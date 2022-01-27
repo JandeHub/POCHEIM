@@ -6,7 +6,7 @@ using System;
 public class CollisionSystem : MonoBehaviour
 {
     public event Action OnTakeCoin = delegate { };
-    public event Action OnCinematic = delegate { };
+    public event Action DamageBullet = delegate { };
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -14,7 +14,17 @@ public class CollisionSystem : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             OnTakeCoin();
+
+            
         }
+
+        if(collision.gameObject.tag == "Player")
+        {
+            DamageBullet();
+            
+        }
+
+        
 
         
     }

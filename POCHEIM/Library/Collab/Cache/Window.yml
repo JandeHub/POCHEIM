@@ -14,10 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs/OptionalPlayer.prefab.meta
+    - Assets/Music & Sounds.meta
+    - Assets/Music & Sounds/Sounds/coinSound.wav
+    - Assets/Music & Sounds/Sounds/coinSound.wav.meta
+    - Assets/Music & Sounds/Volume.meta
+    - Assets/Music & Sounds/Volume/Master.mixer
+    - Assets/Music & Sounds/Volume/Master.mixer.meta
+    - Assets/Music & Sounds/backgroundMusic.mp3
+    - Assets/Music & Sounds/backgroundMusic.mp3.meta
+    - Assets/Prefabs/Kot.prefab
+    - Assets/Prefabs/Player.prefab
+    - Assets/Scenes/Game.unity
+    - Assets/Scenes/Tutorial.unity
     - Assets/Scripts/LoadSeceneManager.cs
+    - Assets/Scripts/LoadSeceneManager.cs.meta
+    - Assets/Scripts/Scene/LoadSeceneManager.cs
+    - Assets/Scripts/Scene/LoadSeceneManager.cs.meta
+    - Assets/Sounds/Volume.meta
+    - Assets/Sounds/Volume/Master.mixer
+    - Assets/Sounds/Volume/Master.mixer.meta
     - 
-    m_Values: 000000
+    m_Values: 0000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

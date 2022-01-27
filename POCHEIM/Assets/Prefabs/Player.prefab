@@ -72,14 +72,15 @@ GameObject:
   - component: {fileID: 4124628943884645650}
   - component: {fileID: 4124628943884645653}
   - component: {fileID: 4124628943884645652}
-  - component: {fileID: 4124628943884645655}
   - component: {fileID: 4124628943884645654}
-  - component: {fileID: 4124628943884645657}
+  - component: {fileID: 4124628943884645655}
   - component: {fileID: 4124628943884645656}
-  - component: {fileID: 4124628943884645659}
-  - component: {fileID: 4124628943884645658}
-  - component: {fileID: 4124628943884645661}
+  - component: {fileID: 4124628943884645657}
   - component: {fileID: 4124628943884645660}
+  - component: {fileID: 4124628943884645661}
+  - component: {fileID: 4124628943884645658}
+  - component: {fileID: 4124628943884645659}
+  - component: {fileID: -985416228968623466}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -144,7 +145,8 @@ SpriteRenderer:
   m_SortingLayerID: -304112123
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5770251550782387183, guid: bf893f3fdd1a02b4989e3c69f85cb13f, type: 3}
+  m_Sprite: {fileID: 5770251550782387183, guid: bf893f3fdd1a02b4989e3c69f85cb13f,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -276,6 +278,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownAttack: 1
+--- !u!114 &-985416228968623466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124628943884645663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a591506118e3e743871209df4f93df0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
 --- !u!114 &4124628943884645658
 MonoBehaviour:
   m_ObjectHideFlags: 0

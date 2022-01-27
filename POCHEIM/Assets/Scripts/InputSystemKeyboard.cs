@@ -15,8 +15,6 @@ public class InputSystemKeyboard : MonoBehaviour
     public event Action OnPause = delegate { };
     
 
-
-
     void Update()
     {
         hor = Input.GetAxis("Horizontal");

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26019799207670696}
   m_Layer: 7
-  m_Name: attackHitbox
+  m_Name: BulletPlace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26019799207670699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.133, y: -0.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 26019799316433123}
@@ -45,12 +45,13 @@ GameObject:
   - component: {fileID: 26019799316433130}
   - component: {fileID: 7123327889533956679}
   - component: {fileID: 26019799316433132}
+  - component: {fileID: 7254824777171310936}
+  - component: {fileID: 26019799316433120}
   - component: {fileID: 26019799316433135}
   - component: {fileID: 26019799316433134}
-  - component: {fileID: 26019799316433120}
   m_Layer: 7
   m_Name: Kot
-  m_TagString: Untagged
+  m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +112,8 @@ SpriteRenderer:
   m_SortingLayerID: 428432897
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2260025004878916334, guid: 5e21fd2d5f71923408cfd0bde44ae015, type: 3}
+  m_Sprite: {fileID: 2260025004878916334, guid: 5e21fd2d5f71923408cfd0bde44ae015,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -175,7 +177,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.12847508, y: 0.03240478}
+  m_Offset: {x: -0.014857449, y: -0.07808073}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -186,7 +188,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.39688596, y: 0.71864605}
+  m_Size: {x: 0.3252198, y: 0.29462078}
   m_EdgeRadius: 0
 --- !u!114 &7123327889533956679
 MonoBehaviour:
@@ -201,8 +203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  enemySpeed: 2
-  agroDistance: 10
+  enemySpeed: 3
+  agroDistance: 1
 --- !u!114 &26019799316433132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,6 +219,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+--- !u!114 &7254824777171310936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26019799316433124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2e5e7057af753a449666ac721885564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingRange: 4.7
+  bullet: {fileID: 3007755255638175777, guid: e46f8abe419122146b39ad6b38316938, type: 3}
+  bulletPlace: {fileID: 26019799207670699}
+  player:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &26019799316433135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95135a4347097a458222e969314b922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _smile: {fileID: 0}
+  _kot: {fileID: 26019799316433123}
 --- !u!114 &26019799316433134
 MonoBehaviour:
   m_ObjectHideFlags: 0

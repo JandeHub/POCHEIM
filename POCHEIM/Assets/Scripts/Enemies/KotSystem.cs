@@ -12,6 +12,8 @@ public class KotSystem : MonoBehaviour
 
     public float enemySpeed;
 
+    public float distancePlayer { get; private set; }
+
     [SerializeField]
     private int agroDistance;
 
@@ -24,6 +26,10 @@ public class KotSystem : MonoBehaviour
 
     void Start()
     {
+        if (GameObject.FindWithTag("Player") != null)
+        {
+            player = GameObject.FindWithTag("Player").transform;
+        }
 
         _rb = GetComponent<Rigidbody2D>();
         _dieSystem = GetComponent<DieSystem>();
@@ -34,15 +40,18 @@ public class KotSystem : MonoBehaviour
     {
         enemySpeed = speed;
 
-        float distancePlayer = Vector2.Distance(transform.position, player.position);
+        distancePlayer = Vector2.Distance(transform.position, player.position);
 
-        if (distancePlayer > 1.0f && Mathf.Abs(distancePlayer) > 2)
+        if (distancePlayer > 4 && Mathf.Abs(distancePlayer) > 2)
         {
             FollowPlayer();
         }
         else if (Mathf.Abs(distancePlayer) > agroDistance)
         {
-            OnAttack();
+            if (!_dieSystem.dead)
+            {
+                OnAttack();
+            }
         }
 
     }
@@ -51,16 +60,18 @@ public class KotSystem : MonoBehaviour
     {
         if (!_dieSystem.dead)
         {
-            if (transform.position.x < player.position.x)
+            if (player != null)
             {
-                _rb.velocity = new Vector2(enemySpeed, 0);
-                transform.localScale = new Vector2(-3f, 3f);
-            }
+                if (transform.position.x < player.position.x)
+                {
+                    transform.localScale = new Vector2(-3f, 3f);
+                }
+                else
+                {
+                    transform.localScale = new Vector2(3f, 3f);
+                }
 
-            else
-            {
-                _rb.velocity = new Vector2(-enemySpeed, 0);
-                transform.localScale = new Vector2(3f, 3f);
+                transform.position = Vector2.MoveTowards(this.transform.position, player.position, enemySpeed * Time.deltaTime);
             }
         }
     }

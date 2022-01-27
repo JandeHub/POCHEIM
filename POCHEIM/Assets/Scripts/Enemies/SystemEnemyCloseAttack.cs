@@ -22,17 +22,13 @@ public class SystemEnemyCloseAttack : MonoBehaviour
     void OnEnable()
     {
         GetComponent<SmileSystem>().OnAttack += canAttack; 
-       
-
-
+      
     }
 
     void OnDisable()
     {
         GetComponent<SmileSystem>().OnAttack -= canAttack;
       
-
-
     }
 
     void Awake()

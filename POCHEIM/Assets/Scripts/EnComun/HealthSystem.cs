@@ -21,6 +21,8 @@ public class HealthSystem : MonoBehaviour
     public event Action<int> MaxHealth = delegate { };
     public event Action<int> UpdateHealth = delegate { };
 
+    public event Action JumpGameOver = delegate { };
+
 
     void Start()
     {
@@ -54,7 +56,7 @@ public class HealthSystem : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            OnDie();
+            JumpGameOver();
         }
     }
 

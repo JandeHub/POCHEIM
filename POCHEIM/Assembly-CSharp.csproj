@@ -62,28 +62,31 @@
     <Compile Include="Assets\Scripts\EnComun\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyGenerator.cs" />
     <Compile Include="Assets\Scripts\EnComun\CollisionSystem.cs" />
+    <Compile Include="Assets\Scripts\Enemies\BulletSystem.cs" />
     <Compile Include="Assets\Scripts\CoinSystem.cs" />
     <Compile Include="Assets\Scripts\Player\SystemPlayerHitEnemy.cs" />
     <Compile Include="Assets\Scripts\PoolingManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\DazedSystem.cs" />
-    <Compile Include="Assets\Scripts\PauseScene.cs" />
     <Compile Include="Assets\Scripts\Enemies\SmileSystem.cs" />
     <Compile Include="Assets\Scripts\EnComun\DieSystem.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSystemData.cs" />
+    <Compile Include="Assets\Scripts\Player\GameOver.cs" />
+    <Compile Include="Assets\Scripts\VolumeSystem.cs" />
     <Compile Include="Assets\Scripts\Enemies\SystemEnemyCloseAttack.cs" />
     <Compile Include="Assets\Scripts\RepeatingBackgound.cs" />
     <Compile Include="Assets\Scripts\PlayCinematics.cs" />
-    <Compile Include="Assets\Scripts\LoadSeceneManager.cs" />
+    <Compile Include="Assets\Scripts\Scene\CanvasUIScripts.cs" />
     <Compile Include="Assets\Scripts\TeleportPlayer.cs" />
     <Compile Include="Assets\Scripts\InputSystemKeyboard.cs" />
     <Compile Include="Assets\Scripts\Player\GroundSystemChecker.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\EnComun\WeaponSystemCooldown.cs" />
     <Compile Include="Assets\Scripts\Enemies\SystemEnemyRangeAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\KotSystem.cs" />
-    <Compile Include="Assets\Scripts\BackgroundSystem.cs" />
+    <Compile Include="Assets\Scripts\Scene\LoadSeceneManager.cs" />
     <Compile Include="Assets\Scripts\HealthSystemUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovment.cs" />
-    <Compile Include="Assets\Scripts\VolumeSystem.cs" />
+    <Compile Include="Assets\Scripts\SoundsSystemData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SceneSprites\PackMonsters\_SpriteSheetsInfo.txt" />
