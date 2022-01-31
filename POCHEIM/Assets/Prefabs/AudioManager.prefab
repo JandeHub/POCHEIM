@@ -46,6 +46,7 @@ MonoBehaviour:
   sounds:
   - name: SwordSlash
     clip: {fileID: 8300000, guid: e7e60a584724d0a46a5b765d27640759, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
     volume: 1
     pitch: 2
     loop: 0
@@ -53,6 +54,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: HurtPlayer
     clip: {fileID: 8300000, guid: 9f51fc0fdae504942a16237bd2614a3e, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
     volume: 1
     pitch: 1
     loop: 0
@@ -60,8 +62,15 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: TakeCoin
     clip: {fileID: 8300000, guid: f8b5b18fe390bab44b5933861ab462d9, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
     volume: 1
     pitch: 1
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
+  musicMixer: {fileID: 24100000, guid: 8d85d5de50d8b2b428902ed4cd127cb0, type: 2}
+  effectMixer: {fileID: 24100000, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
+  musicSlider: {fileID: 0}
+  effectSlider: {fileID: 0}
+  musicVol: 10
+  effectVol: 10

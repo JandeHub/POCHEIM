@@ -18,6 +18,7 @@ public class CoinSystem : MonoBehaviour
         {
             _sp.enabled = false;
 
+            CoinAmount._instance.Money(1f);
             FindObjectOfType<AudioManager>().Play("TakeCoin");
 
             Destroy(gameObject, 0.5f);

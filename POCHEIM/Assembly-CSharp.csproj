@@ -83,11 +83,14 @@
     <Compile Include="Assets\Scripts\EnComun\WeaponSystemCooldown.cs" />
     <Compile Include="Assets\Scripts\Enemies\SystemEnemyRangeAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\KotSystem.cs" />
+    <Compile Include="Assets\Scripts\PowerUpPick.cs" />
     <Compile Include="Assets\Scripts\Scene\LoadSeceneManager.cs" />
     <Compile Include="Assets\Scripts\HealthSystemUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovment.cs" />
     <Compile Include="Assets\Scripts\SoundsSystemData.cs" />
-    <Compile Include="Assets\Scripts\PowerUpPick.cs" />
+    <Compile Include="Assets\DataManager.cs" />
+    <Compile Include="Assets\Scripts\CoinAmount.cs" />
+    <Compile Include="Assets\Scripts\WaveGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SceneSprites\PackMonsters\_SpriteSheetsInfo.txt" />

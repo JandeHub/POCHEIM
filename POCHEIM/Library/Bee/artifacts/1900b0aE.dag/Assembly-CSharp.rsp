@@ -344,7 +344,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/DataManager.cs"
 "Assets/Scripts/AudioManager.cs"
+"Assets/Scripts/CoinAmount.cs"
 "Assets/Scripts/CoinSystem.cs"
 "Assets/Scripts/EnComun/CollisionSystem.cs"
 "Assets/Scripts/EnComun/DieSystem.cs"
@@ -373,6 +375,7 @@
 "Assets/Scripts/SoundsSystemData.cs"
 "Assets/Scripts/TeleportPlayer.cs"
 "Assets/Scripts/VolumeSystem.cs"
+"Assets/Scripts/WaveGenerator.cs"
 -langversion:8.0
 
 /deterministic

@@ -10,6 +10,7 @@ public class SoundsSystemData
     public string name;
 
     public AudioClip clip;
+    public AudioMixerGroup mixer;
 
     
     [Range(0f, 1f)]
@@ -18,6 +19,7 @@ public class SoundsSystemData
     public float pitch;
     public bool loop;
     public bool playOnAwake;
+    
 
     [HideInInspector]
     public AudioSource source;

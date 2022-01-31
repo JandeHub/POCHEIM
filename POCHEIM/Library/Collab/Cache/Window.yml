@@ -14,6 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animations/Enemy/Dummy.meta
+    - Assets/Animations/Enemy/Dummy/Browser Games - Cactus McCoy and the Curse of
+      Thorns - Scarecrow_14.controller
+    - Assets/Animations/Enemy/Dummy/Browser Games - Cactus McCoy and the Curse of
+      Thorns - Scarecrow_14.controller.meta
+    - Assets/Animations/Enemy/Dummy/death.anim
+    - Assets/Animations/Enemy/Dummy/death.anim.meta
+    - Assets/Animations/Enemy/Dummy/hurt.anim
+    - Assets/Animations/Enemy/Dummy/hurt.anim.meta
+    - Assets/Animations/Enemy/Dummy/idle.anim
+    - Assets/Animations/Enemy/Dummy/idle.anim.meta
+    - Assets/Animations/Enemy/Kas/Monster4Pack_0 (1).controller
+    - Assets/Animations/Enemy/Kas/death.anim
+    - Assets/Animations/Enemy/Smile/Monster3Pack_6.controller
+    - Assets/Animations/Enemy/Smile/Monster3Pack_6.controller.meta
+    - Assets/Animations/Enemy/Smile/attack.anim
+    - Assets/Animations/Enemy/Smile/attack.anim.meta
+    - Assets/Animations/Enemy/Smile/death.anim
+    - Assets/Animations/Enemy/Smile/death.anim.meta
+    - Assets/Animations/Enemy/Smile/hurt.anim
+    - Assets/Animations/Enemy/Smile/hurt.anim.meta
+    - Assets/Animations/Enemy/Smile/run.anim
+    - Assets/Animations/Enemy/Smile/run.anim.meta
+    - Assets/Animations/Enemy/Smile/walk.anim
+    - Assets/Animations/Enemy/Smile/walk.anim.meta
+    - Assets/Animations/PowerUps.meta
+    - Assets/Animations/PowerUps/Clock.meta
+    - Assets/Animations/PowerUps/Clock/frame_01.controller
+    - Assets/Animations/PowerUps/Clock/frame_01.controller.meta
+    - Assets/Animations/PowerUps/Clock/idle.anim
+    - Assets/Animations/PowerUps/Clock/idle.anim.meta
+    - Assets/Animations/PowerUps/Effect 1 - Sprite Sheet_0 1.controller
+    - Assets/Animations/PowerUps/Effect 1 - Sprite Sheet_0 1.controller.meta
+    - Assets/Animations/PowerUps/pickUp.anim
+    - Assets/Animations/PowerUps/pickUp.anim.meta
+    - Assets/Animations/Scene/PauseMenu.meta
+    - Assets/Animations/Scene/PauseMenu/HighlightedAnim.controller
+    - Assets/Animations/Scene/PauseMenu/HighlightedAnim.controller.meta
     - Assets/Music & Sounds.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Field.wav
@@ -25,42 +63,115 @@ MonoBehaviour:
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Volcano.wav
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Volcano.wav.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Combat - Fighting
-      the Monstrosity Phase I.wav
-    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Combat - Fighting
       the Monstrosity Phase I.wav.meta
-    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Dungeon - Puzzling
-      Moments.wav
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Dungeon - Puzzling
       Moments.wav.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
-      by the Sea Loop.wav
-    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
       by the Sea Loop.wav.meta
-    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
-      by the Sea Start.wav
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Location - Village
       by the Sea Start.wav.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Story - The Princess'
-      Lullaby.wav
-    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Story - The Princess'
       Lullaby.wav.meta
     - Assets/Music & Sounds/Sounds.meta
-    - Assets/Music & Sounds/Sounds/coinSound.wav
-    - Assets/Music & Sounds/Sounds/coinSound.wav.meta
-    - Assets/Music & Sounds/Volume.meta
+    - Assets/Music & Sounds/Sounds/SwordSlash.ogg
+    - Assets/Music & Sounds/Sounds/SwordSlash.ogg.meta
+    - Assets/Music & Sounds/Sounds/damagePlayer.wav
+    - Assets/Music & Sounds/Sounds/damagePlayer.wav.meta
     - Assets/Music & Sounds/Volume/Master.mixer
-    - Assets/Music & Sounds/Volume/Master.mixer.meta
-    - Assets/Music & Sounds/backgroundMusic.mp3
-    - Assets/Music & Sounds/backgroundMusic.mp3.meta
+    - Assets/Prefabs/AudioManager.prefab
+    - Assets/Prefabs/AudioManager.prefab.meta
+    - Assets/Prefabs/Canvas.prefab
+    - Assets/Prefabs/Coin.prefab
     - Assets/Prefabs/Kot.prefab
+    - Assets/Prefabs/KotBullet.prefab
+    - Assets/Prefabs/PickUpEffect.prefab
+    - Assets/Prefabs/PickUpEffect.prefab.meta
     - Assets/Prefabs/Player.prefab
+    - Assets/Prefabs/Smile.prefab
+    - Assets/Prefabs/Smile.prefab.meta
+    - Assets/SceneSprites/Effect 1 - Sprite Sheet.png
+    - Assets/SceneSprites/Effect 1 - Sprite Sheet.png.meta
+    - Assets/SceneSprites/Hud-menu.png
+    - Assets/SceneSprites/Hud-menu.png.meta
+    - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders.meta
+    - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders/Pxiel Art UI borders.png
+    - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders/Pxiel Art UI borders.png.meta
+    - Assets/SceneSprites/PackMonsters/Monster3Pack.png.meta
+    - Assets/SceneSprites/PlayerTiles/run turnaround-Sheet.png
+    - Assets/SceneSprites/PlayerTiles/run turnaround-Sheet.png.meta
+    - Assets/SceneSprites/Slider01.png.meta
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter.meta
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_attack_1.png
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_attack_1.png.meta
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_attack_2.png
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_attack_2.png.meta
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_damage.png
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_damage.png.meta
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_death.png
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_death.png.meta
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_idle.png
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_idle.png.meta
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_walk.png
+    - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_walk.png.meta
+    - Assets/SceneSprites/TutorialTiles/Dummy.png
+    - Assets/SceneSprites/TutorialTiles/Dummy.png.meta
+    - Assets/SceneSprites/dark ui large-long plate.png
+    - Assets/SceneSprites/dark ui large-long plate.png.meta
+    - Assets/SceneSprites/heart.png
+    - Assets/SceneSprites/heart.png.meta
+    - Assets/SceneSprites/hourglass.meta
+    - Assets/SceneSprites/hourglass/frame_01.png
+    - Assets/SceneSprites/hourglass/frame_01.png.meta
+    - Assets/SceneSprites/hourglass/frame_02.png
+    - Assets/SceneSprites/hourglass/frame_02.png.meta
+    - Assets/SceneSprites/hourglass/frame_03.png
+    - Assets/SceneSprites/hourglass/frame_03.png.meta
+    - Assets/SceneSprites/hourglass/frame_04.png
+    - Assets/SceneSprites/hourglass/frame_04.png.meta
+    - Assets/SceneSprites/hourglass/frame_05.png
+    - Assets/SceneSprites/hourglass/frame_05.png.meta
+    - Assets/SceneSprites/hourglass/frame_06.png
+    - Assets/SceneSprites/hourglass/frame_06.png.meta
+    - Assets/SceneSprites/hourglass/frame_07.png
+    - Assets/SceneSprites/hourglass/frame_07.png.meta
+    - Assets/SceneSprites/hourglass/frame_08.png
+    - Assets/SceneSprites/hourglass/frame_08.png.meta
+    - Assets/SceneSprites/hourglass/frame_09.png
+    - Assets/SceneSprites/hourglass/frame_09.png.meta
+    - Assets/SceneSprites/hourglass/frame_10.png
+    - Assets/SceneSprites/hourglass/frame_10.png.meta
     - Assets/Scenes/Game.unity
+    - Assets/Scenes/Menu.unity
+    - Assets/Scenes/Options.unity
+    - Assets/Scenes/Options.unity.meta
     - Assets/Scenes/Tutorial.unity
+    - Assets/Scripts/AudioManager.cs.meta
+    - Assets/Scripts/CoinSystem.cs
+    - Assets/Scripts/EnComun/CollisionSystem.cs
+    - Assets/Scripts/EnComun/HealthSystem.cs
+    - Assets/Scripts/Enemies/BulletSystem.cs.meta
+    - Assets/Scripts/HealthSystemUI.cs
     - Assets/Scripts/LoadSeceneManager.cs
     - Assets/Scripts/LoadSeceneManager.cs.meta
+    - Assets/Scripts/Player/GameOver.cs.meta
+    - Assets/Scripts/Player/SystemPlayerHitEnemy.cs
+    - Assets/Scripts/PowerUpPick.cs
+    - Assets/Scripts/PowerUpPick.cs.meta
+    - Assets/Scripts/Scene.meta
+    - Assets/Scripts/Scene/CanvasUIScripts.cs.meta
     - Assets/Scripts/Scene/LoadSeceneManager.cs.meta
+    - Assets/Scripts/SoundsSystemData.cs.meta
+    - Assets/Sounds.meta
+    - Assets/Sounds/Volume.meta
+    - Assets/Sounds/Volume/Master.mixer
+    - Assets/Sounds/Volume/Master.mixer.meta
+    - Assets/Sounds/backgroundMusic.mp3
+    - Assets/Sounds/backgroundMusic.mp3.meta
+    - Assets/Sounds/coinSound.wav
+    - Assets/Sounds/coinSound.wav.meta
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
