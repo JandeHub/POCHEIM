@@ -145,8 +145,7 @@ SpriteRenderer:
   m_SortingLayerID: -304112123
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5770251550782387183, guid: bf893f3fdd1a02b4989e3c69f85cb13f,
-    type: 3}
+  m_Sprite: {fileID: 5770251550782387183, guid: bf893f3fdd1a02b4989e3c69f85cb13f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -197,22 +196,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &4124628943884645655
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4124628943884645663}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.11789569, y: -0.18442877}
-  serializedVersion: 2
-  m_Radius: 0.02625433
 --- !u!61 &4124628943884645654
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -239,18 +222,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.151457, y: 0.2542795}
   m_EdgeRadius: 0
---- !u!114 &4124628943884645657
-MonoBehaviour:
+--- !u!58 &4124628943884645655
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4124628943884645663}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64c3fa4932409d5489ef8e6aa537af6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.11996113, y: -0.20871729}
+  serializedVersion: 2
+  m_Radius: 0.0014892987
 --- !u!114 &4124628943884645656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,9 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6615e1ab246b6db4494f632fe4c77139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
---- !u!114 &4124628943884645659
+--- !u!114 &4124628943884645657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -274,11 +261,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4124628943884645663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93bc2083d308b35418543b5a10e6329c, type: 3}
+  m_Script: {fileID: 11500000, guid: 64c3fa4932409d5489ef8e6aa537af6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownAttack: 1
---- !u!114 &-985416228968623466
+--- !u!114 &4124628943884645660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,10 +273,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 4124628943884645663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a591506118e3e743871209df4f93df0, type: 3}
+  m_Script: {fileID: 11500000, guid: 337f9156b6e5e7545ade766b03a8eba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
+  _velocity: 4
+  jumpSpeed: 7
+--- !u!114 &4124628943884645661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124628943884645663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43df54f138b005458fe2df12251b4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundChecker: {fileID: 4124628943723547600}
+  radius: 0.5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &4124628943884645658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +313,7 @@ MonoBehaviour:
   enemies:
     serializedVersion: 2
     m_Bits: 128
---- !u!114 &4124628943884645661
+--- !u!114 &4124628943884645659
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -318,15 +322,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4124628943884645663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a43df54f138b005458fe2df12251b4aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 93bc2083d308b35418543b5a10e6329c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundChecker: {fileID: 4124628943723547600}
-  radius: 0.5
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
---- !u!114 &4124628943884645660
+  cooldownAttack: 0.5
+--- !u!114 &-985416228968623466
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,8 +335,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4124628943884645663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337f9156b6e5e7545ade766b03a8eba5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a591506118e3e743871209df4f93df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocity: 4
-  jumpSpeed: 7
+  gameOver: {fileID: 0}

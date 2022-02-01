@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animations/Coin/Coins_16x16res_14.controller
+    - Assets/Animations/Coin/Coins_16x16res_14.controller.meta
+    - Assets/Animations/Coin/coin.anim
+    - Assets/Animations/Coin/spr_coin_ama_0.controller
+    - Assets/Animations/Coin/spr_coin_ama_0.controller.meta
     - Assets/Animations/Enemy/Dummy.meta
     - Assets/Animations/Enemy/Dummy/Browser Games - Cactus McCoy and the Curse of
       Thorns - Scarecrow_14.controller
@@ -49,10 +54,20 @@ MonoBehaviour:
     - Assets/Animations/PowerUps/Effect 1 - Sprite Sheet_0 1.controller.meta
     - Assets/Animations/PowerUps/pickUp.anim
     - Assets/Animations/PowerUps/pickUp.anim.meta
+    - Assets/Animations/Scene/Credit.meta
+    - Assets/Animations/Scene/Credit/Scroll.anim
+    - Assets/Animations/Scene/Credit/Scroll.anim.meta
+    - Assets/Animations/Scene/Credit/ScrollCredits.controller
+    - Assets/Animations/Scene/Credit/ScrollCredits.controller.meta
     - Assets/Animations/Scene/PauseMenu.meta
     - Assets/Animations/Scene/PauseMenu/HighlightedAnim.controller
     - Assets/Animations/Scene/PauseMenu/HighlightedAnim.controller.meta
     - Assets/Music & Sounds.meta
+    - Assets/Music & Sounds/Mixer.meta
+    - Assets/Music & Sounds/Mixer/EffectMaster.mixer
+    - Assets/Music & Sounds/Mixer/EffectMaster.mixer.meta
+    - Assets/Music & Sounds/Mixer/MusicMaster.mixer
+    - Assets/Music & Sounds/Mixer/MusicMaster.mixer.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Field.wav
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Ambience - Field.wav.meta
@@ -78,10 +93,13 @@ MonoBehaviour:
     - Assets/Music & Sounds/Sounds/damagePlayer.wav
     - Assets/Music & Sounds/Sounds/damagePlayer.wav.meta
     - Assets/Music & Sounds/Volume/Master.mixer
+    - Assets/Music & Sounds/Volume/Master.mixer.meta
     - Assets/Prefabs/AudioManager.prefab
     - Assets/Prefabs/AudioManager.prefab.meta
     - Assets/Prefabs/Canvas.prefab
     - Assets/Prefabs/Coin.prefab
+    - Assets/Prefabs/GameManager.prefab
+    - Assets/Prefabs/GameManager.prefab.meta
     - Assets/Prefabs/Kot.prefab
     - Assets/Prefabs/KotBullet.prefab
     - Assets/Prefabs/PickUpEffect.prefab
@@ -89,13 +107,18 @@ MonoBehaviour:
     - Assets/Prefabs/Player.prefab
     - Assets/Prefabs/Smile.prefab
     - Assets/Prefabs/Smile.prefab.meta
-    - Assets/SceneSprites/Effect 1 - Sprite Sheet.png
-    - Assets/SceneSprites/Effect 1 - Sprite Sheet.png.meta
+    - Assets/SceneSprites/Coins_16x16res.png
+    - Assets/SceneSprites/Coins_16x16res.png.meta
+    - Assets/SceneSprites/Dummy.png.meta
+    - Assets/SceneSprites/Effect.png
+    - Assets/SceneSprites/Effect.png.meta
     - Assets/SceneSprites/Hud-menu.png
     - Assets/SceneSprites/Hud-menu.png.meta
     - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders.meta
     - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders/Pxiel Art UI borders.png
     - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders/Pxiel Art UI borders.png.meta
+    - Assets/SceneSprites/MenuUI.png
+    - Assets/SceneSprites/MenuUI.png.meta
     - Assets/SceneSprites/PackMonsters/Monster3Pack.png.meta
     - Assets/SceneSprites/PlayerTiles/run turnaround-Sheet.png
     - Assets/SceneSprites/PlayerTiles/run turnaround-Sheet.png.meta
@@ -115,8 +138,6 @@ MonoBehaviour:
     - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_walk.png.meta
     - Assets/SceneSprites/TutorialTiles/Dummy.png
     - Assets/SceneSprites/TutorialTiles/Dummy.png.meta
-    - Assets/SceneSprites/dark ui large-long plate.png
-    - Assets/SceneSprites/dark ui large-long plate.png.meta
     - Assets/SceneSprites/heart.png
     - Assets/SceneSprites/heart.png.meta
     - Assets/SceneSprites/hourglass.meta
@@ -140,15 +161,28 @@ MonoBehaviour:
     - Assets/SceneSprites/hourglass/frame_09.png.meta
     - Assets/SceneSprites/hourglass/frame_10.png
     - Assets/SceneSprites/hourglass/frame_10.png.meta
+    - Assets/SceneSprites/spr_coin_ama.png
+    - Assets/SceneSprites/spr_coin_ama.png.meta
+    - Assets/Scenes/Credits.unity
+    - Assets/Scenes/Credits.unity.meta
     - Assets/Scenes/Game.unity
     - Assets/Scenes/Menu.unity
+    - Assets/Scenes/MenuPresentation.unity
+    - Assets/Scenes/MenuPresentation.unity.meta
     - Assets/Scenes/Options.unity
     - Assets/Scenes/Options.unity.meta
     - Assets/Scenes/Tutorial.unity
+    - Assets/Scripts/AudioManager.cs
     - Assets/Scripts/AudioManager.cs.meta
+    - Assets/Scripts/CoinAmount.cs
+    - Assets/Scripts/CoinAmount.cs.meta
     - Assets/Scripts/CoinSystem.cs
+    - Assets/Scripts/DataManager.cs
+    - Assets/Scripts/DataManager.cs.meta
     - Assets/Scripts/EnComun/CollisionSystem.cs
+    - Assets/Scripts/EnComun/DieSystem.cs
     - Assets/Scripts/EnComun/HealthSystem.cs
+    - Assets/Scripts/Enemies/BulletSystem.cs
     - Assets/Scripts/Enemies/BulletSystem.cs.meta
     - Assets/Scripts/HealthSystemUI.cs
     - Assets/Scripts/LoadSeceneManager.cs
@@ -160,7 +194,15 @@ MonoBehaviour:
     - Assets/Scripts/Scene.meta
     - Assets/Scripts/Scene/CanvasUIScripts.cs.meta
     - Assets/Scripts/Scene/LoadSeceneManager.cs.meta
+    - Assets/Scripts/SoundsSystemData.cs
     - Assets/Scripts/SoundsSystemData.cs.meta
+    - Assets/Scripts/WaveGenerator.cs
+    - Assets/Scripts/WaveGenerator.cs.meta
+    - Assets/SlowMoPack.meta
+    - Assets/SlowMoPack/SlowMo.cs
+    - Assets/SlowMoPack/SlowMo.cs.meta
+    - Assets/SlowMoPack/SlowMoTestScript.cs
+    - Assets/SlowMoPack/SlowMoTestScript.cs.meta
     - Assets/Sounds.meta
     - Assets/Sounds/Volume.meta
     - Assets/Sounds/Volume/Master.mixer
@@ -169,9 +211,11 @@ MonoBehaviour:
     - Assets/Sounds/backgroundMusic.mp3.meta
     - Assets/Sounds/coinSound.wav
     - Assets/Sounds/coinSound.wav.meta
+    - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

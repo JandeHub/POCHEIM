@@ -9,7 +9,10 @@ public class PlayerMovment : MonoBehaviour
     [SerializeField]
     private float jumpSpeed;
 
-    
+    private float dashSpeed;
+    private float dashTime;
+  
+
     private bool doubleJump;
     
 

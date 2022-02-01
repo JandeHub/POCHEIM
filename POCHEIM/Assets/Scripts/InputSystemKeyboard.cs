@@ -13,6 +13,7 @@ public class InputSystemKeyboard : MonoBehaviour
     //Evento creado, se utiliza "delegate" para decir que esa linea de codigo es un evento
     public event Action OnPunch = delegate { };
     public event Action OnPause = delegate { };
+
     
 
     void Update()
@@ -25,6 +26,8 @@ public class InputSystemKeyboard : MonoBehaviour
 
         else if (Input.GetKeyDown(KeyCode.Escape))
             OnPause();
+
+   
 
         
 

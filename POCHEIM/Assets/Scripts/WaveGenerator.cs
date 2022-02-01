@@ -23,15 +23,18 @@ using UnityEngine.UI;
 
 public class WaveGenerator : MonoBehaviour
 {
-    public float difficultyFactor = 0.9f;
+    private float difficultyFactor = 0.9f;
     private float _delayFactor = 1.0f;
+    [SerializeField]
+    private float startWaveSeconds;
+
 
     public Text waveText;
-    public Transform[] positions;
     public List<Wave> waves;
     private Wave _currentWave;
     public Wave CurrentWave { get { return _currentWave; } }
     public Vector3 spawnValues;
+    public Vector3 spawnValues2;
 
 
     void Start()
@@ -43,7 +46,11 @@ public class WaveGenerator : MonoBehaviour
     {
         _delayFactor = 1.0f;
 
-        while(true)
+        yield return new WaitForSeconds(startWaveSeconds);
+        waveText.text = startWaveSeconds.ToString();
+        
+
+        while (true)
         {
             foreach(Wave W in waves)
             {
@@ -52,19 +59,18 @@ public class WaveGenerator : MonoBehaviour
                 {
                     if (Action.delay > 0)
                         yield return new WaitForSeconds(Action.delay * _delayFactor);
+
                     if(Action.message != "")
                     {
                         waveText.text = Action.message.ToString();
                     }
-
-                    
-                    
                     if(Action.enemyPrefab != null && Action.spawnCount > 0)
                     {
                         for(int i = 0; i < Action.spawnCount; i++)
                         {
-                            Vector3 spawnPosition = new Vector3(spawnValues.x, spawnValues.y, spawnValues.z);
-                            Vector3 spawnPosition2 = new Vector3(-spawnValues.x, spawnValues.y, spawnValues.z);
+                            yield return new WaitForSeconds(startWaveSeconds);
+                            Vector3 spawnPosition = new Vector3(Random.Range(spawnValues.x, spawnValues2.x), spawnValues.y, spawnValues.z);
+                            Vector3 spawnPosition2 = new Vector3(Random.Range(spawnValues.x, spawnValues2.x), spawnValues.y, spawnValues.z);
                             Quaternion spawnRotation = Quaternion.identity;
                             Instantiate(Action.enemyPrefab, spawnPosition, spawnRotation);
                             Instantiate(Action.enemyPrefab, spawnPosition2, spawnRotation);

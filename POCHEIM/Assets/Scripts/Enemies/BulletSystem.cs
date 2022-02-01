@@ -61,6 +61,7 @@ public class BulletSystem : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("Hitted");
             collision.gameObject.GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
 
         }
@@ -68,7 +69,7 @@ public class BulletSystem : MonoBehaviour
     }
     void bulletDamage()
     {
-        Debug.Log("Hitted");
+        
         GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
         Destroy(this.gameObject, 2);
 
