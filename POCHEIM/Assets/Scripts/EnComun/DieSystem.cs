@@ -46,7 +46,7 @@ public class DieSystem : MonoBehaviour
         }
         else if(lootRarity < 40)
         {
-            Instantiate(lootItems[2].gameObject, transform.position, Quaternion.identity);
+            Instantiate(lootItems[2].gameObject, new Vector3(transform.position.x, transform.position.y + 5, 0), Quaternion.identity);
         }
         else if(lootRarity < 70)
         {

@@ -48,14 +48,14 @@ GameObject:
   - component: {fileID: 7254824777171310936}
   - component: {fileID: 26019799316433120}
   - component: {fileID: 26019799316433135}
-  - component: {fileID: 26019799316433134}
+  - component: {fileID: -482845943947070029}
   m_Layer: 7
   m_Name: Kot
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &26019799316433123
 Transform:
   m_ObjectHideFlags: 0
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _smile: {fileID: 139303139373380241, guid: 4f7d2efd4fcd01a4394d75ff33a0eeba, type: 3}
   _kot: {fileID: 26019799316433123}
---- !u!114 &26019799316433134
+--- !u!114 &-482845943947070029
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,4 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1456bb6a064011a4cbe37a59866dafef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lootItems: []
+  lootItems:
+  - {fileID: 2471880843519097958, guid: 0144f4c39054980409ae68954b3f66e6, type: 3}
+  - {fileID: 4480244600022519073, guid: 396061ec253f3c741b1ce4b9dc25ea55, type: 3}
+  - {fileID: 3901623652260882035, guid: b6c5186b3fe77304cb4b299e1d407bea, type: 3}
+  - {fileID: 456115486062656005, guid: ea9e7e4c9e53af3448ff199fdb94e9fa, type: 3}

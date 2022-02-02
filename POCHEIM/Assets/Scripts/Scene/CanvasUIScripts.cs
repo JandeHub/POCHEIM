@@ -20,14 +20,14 @@ public class CanvasUIScripts : MonoBehaviour
 
     void OnEnable()
     {
-        GameObject.FindWithTag("UI").GetComponent<HealthSystem>().JumpGameOver += GameOver;
+        GameObject.FindWithTag("Player").GetComponent<HealthSystem>().JumpGameOver += GameOver;
         GameObject.FindWithTag("UI").GetComponent<InputSystemKeyboard>().OnPause += GamePaused;
 
     }
 
     void OnDisable()
     {
-        GameObject.FindWithTag("UI").GetComponent<HealthSystem>().JumpGameOver -= GameOver;
+        GameObject.FindWithTag("Player").GetComponent<HealthSystem>().JumpGameOver -= GameOver;
         GameObject.FindWithTag("UI").GetComponent<InputSystemKeyboard>().OnPause += GamePaused;
 
     }

@@ -15,6 +15,9 @@ public class SystemPlayerHitEnemy : MonoBehaviour
     [SerializeField]
     private int damage;
 
+    public int combo;
+    public bool attacking;
+
     [SerializeField]
     private LayerMask enemies;
     
@@ -35,25 +38,47 @@ public class SystemPlayerHitEnemy : MonoBehaviour
         _cooldown = GetComponent<WeaponSystemCooldown>();
         _health = GetComponent<HealthSystem>();
     }
+    void Start_Combo()
+    {
+        attacking = false;
+        if( combo < 3 )
+        {
+            combo++;
+        }
+    }
 
+    void Finish_Combo()
+    {
+        combo = 0;
+        attacking = false;
+        
+    }
+
+   
 
     void canPunch()
     {
         if (!_cooldown.cooling)
-        {   
-            FindObjectOfType<AudioManager>().Play("SwordSlash");
-            _anim.SetTrigger("attackMelee");
-            
-            _cooldown.cooling = true;
-
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackHitbox.position, attackRange, enemies);
-
-            foreach (Collider2D enemy in hitEnemies)
+        {
+            if (!attacking)
             {
-                enemy.GetComponent<HealthSystem>().ReduceHealthEnemy(damage);
+                attacking = true;
+                _anim.SetTrigger("" + combo);
+                FindObjectOfType<AudioManager>().Play("SwordSlash");
+
+
+                _cooldown.cooling = true;
+
+                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackHitbox.position, attackRange, enemies);
+
+                foreach (Collider2D enemy in hitEnemies)
+                {
+                    enemy.GetComponent<HealthSystem>().ReduceHealthEnemy(damage);
+                }
             }
 
         }
+       
 
 
     }
