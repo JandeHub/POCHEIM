@@ -8,6 +8,8 @@ public class DieSystem : MonoBehaviour
 
     public bool dead { get; private set; }
 
+    public GameObject[] lootItems;
+
     void OnEnable()
     {
         GetComponent<HealthSystem>().OnDie += Die;
@@ -31,6 +33,26 @@ public class DieSystem : MonoBehaviour
 
         dead = true;
         _anim.SetBool("dead", true);
+
+        int lootRarity = Random.Range(0, 101);
+
+        if(lootRarity < 3)
+        {
+            Instantiate(lootItems[0].gameObject, transform.position, Quaternion.identity);
+        }
+        else if(lootRarity < 10)
+        {
+            Instantiate(lootItems[1].gameObject, transform.position, Quaternion.identity);
+        }
+        else if(lootRarity < 40)
+        {
+            Instantiate(lootItems[2].gameObject, transform.position, Quaternion.identity);
+        }
+        else if(lootRarity < 70)
+        {
+            Instantiate(lootItems[3].gameObject, transform.position, Quaternion.identity);
+        }
+        
 
         GetComponent<Collider2D>().enabled = false;
         Destroy(gameObject, 2);

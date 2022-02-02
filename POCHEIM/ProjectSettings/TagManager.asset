@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Enemy2
+  - Loot
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -52,15 +54,15 @@ TagManager:
   - name: Platforms
     uniqueID: 4292963223
     locked: 0
-  - name: Particles
-    uniqueID: 557117261
-    locked: 0
-  - name: Player
-    uniqueID: 3990855173
+  - name: Coins
+    uniqueID: 1646892087
     locked: 0
   - name: Enemies
     uniqueID: 428432897
     locked: 0
-  - name: Coins
-    uniqueID: 1646892087
+  - name: Player
+    uniqueID: 3990855173
+    locked: 0
+  - name: Particles
+    uniqueID: 557117261
     locked: 0

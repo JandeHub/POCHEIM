@@ -14,6 +14,7 @@ public class BulletSystem : MonoBehaviour
     private int damage;
 
     private Rigidbody2D _rb;
+    private Animator _anim;
 
     void OnEnable()
     {
@@ -34,6 +35,7 @@ public class BulletSystem : MonoBehaviour
         }
 
         _rb = GetComponent<Rigidbody2D>();
+        _anim = GetComponent<Animator>();
         
 
         target = GameObject.FindGameObjectWithTag("Player");
@@ -54,26 +56,33 @@ public class BulletSystem : MonoBehaviour
 
 
     }
-    
 
-    void OnTriggerEnter2D (Collider2D collision)
+    private void Update()
+    {
+        Destroy(gameObject, 3);
+    }
+
+
+   void OnTriggerEnter2D (Collider2D collision)
     {
 
-        if (collision.gameObject.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             Debug.Log("Hitted");
-            collision.gameObject.GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
+            collision.GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
+
+            _anim.SetTrigger("destroy");
+            Destroy(gameObject, 1);
 
         }
 
     }
+
     void bulletDamage()
     {
-        
-        GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
-        Destroy(this.gameObject, 2);
-
+        Debug.Log("Hitted");
     }
+    
 
 
 

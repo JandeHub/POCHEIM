@@ -18,7 +18,7 @@ public class CollisionSystem : MonoBehaviour
             
         }
 
-        if(other.gameObject.tag == "Player")
+        if(other.CompareTag("Player"))
         {
             DamageBullet();
             

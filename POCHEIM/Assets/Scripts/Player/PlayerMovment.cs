@@ -23,6 +23,7 @@ public class PlayerMovment : MonoBehaviour
     private SpriteRenderer _sp;
 
 
+
     void Start()
     {
         _input = GetComponent<InputSystemKeyboard>();
@@ -30,7 +31,7 @@ public class PlayerMovment : MonoBehaviour
         _ground = GetComponent<GroundSystemChecker>();
         _anim = GetComponent<Animator>();
         _sp = GetComponent<SpriteRenderer>();
-        
+
     }
 
 

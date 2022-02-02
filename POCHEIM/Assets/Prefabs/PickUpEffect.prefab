@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1513974903853851874}
   - component: {fileID: 6291422529436304771}
   - component: {fileID: 446849199910552938}
+  - component: {fileID: 4014256536008796805}
   m_Layer: 0
   m_Name: PickUpEffect
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1646892087
-  m_SortingLayer: 7
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1102079177054390825, guid: b35a0fc9c9f59a14b8d27126eced13e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -103,3 +104,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4014256536008796805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6443303731975923249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e9388c2b718a8499b7a687c1f935d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

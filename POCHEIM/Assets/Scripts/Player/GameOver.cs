@@ -8,7 +8,10 @@ public class GameOver : MonoBehaviour
     public GameObject gameOver;
 
 
+     
+
     private HealthSystem _health;
+
 
 
     void OnEnable()
@@ -24,6 +27,7 @@ public class GameOver : MonoBehaviour
     }
     void Start()
     {
+   
         _health = GetComponent<HealthSystem>();
 
     }
@@ -31,7 +35,7 @@ public class GameOver : MonoBehaviour
     void GameOverUI()
     {
         gameOver.SetActive(true);
-        Destroy(gameObject);
+        
 
     }
 }

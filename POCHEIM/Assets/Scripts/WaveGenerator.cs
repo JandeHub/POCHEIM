@@ -23,6 +23,8 @@ using UnityEngine.UI;
 
 public class WaveGenerator : MonoBehaviour
 {
+
+   
     private float difficultyFactor = 0.9f;
     private float _delayFactor = 1.0f;
     [SerializeField]
@@ -69,8 +71,8 @@ public class WaveGenerator : MonoBehaviour
                         for(int i = 0; i < Action.spawnCount; i++)
                         {
                             yield return new WaitForSeconds(startWaveSeconds);
-                            Vector3 spawnPosition = new Vector3(Random.Range(spawnValues.x, spawnValues2.x), spawnValues.y, spawnValues.z);
-                            Vector3 spawnPosition2 = new Vector3(Random.Range(spawnValues.x, spawnValues2.x), spawnValues.y, spawnValues.z);
+                            Vector3 spawnPosition = new Vector3(spawnValues.x, spawnValues.y, spawnValues.z);
+                            Vector3 spawnPosition2 = new Vector3(spawnValues2.x, spawnValues.y, spawnValues.z);
                             Quaternion spawnRotation = Quaternion.identity;
                             Instantiate(Action.enemyPrefab, spawnPosition, spawnRotation);
                             Instantiate(Action.enemyPrefab, spawnPosition2, spawnRotation);

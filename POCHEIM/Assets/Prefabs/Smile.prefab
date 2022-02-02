@@ -81,7 +81,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 428432897
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 6954600301959667102, guid: 0d8649558b381eb4d9c9b7acbdd14bb2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _smile: {fileID: 139303139373380241}
-  _kot: {fileID: 0}
+  _kot: {fileID: 26019799316433123, guid: ee6208e6e37a6dd428c57beefdb21921, type: 3}
 --- !u!114 &139303139373380244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +262,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1456bb6a064011a4cbe37a59866dafef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lootItems:
+  - {fileID: 2471880843519097958, guid: 0144f4c39054980409ae68954b3f66e6, type: 3}
+  - {fileID: 4480244600022519073, guid: 396061ec253f3c741b1ce4b9dc25ea55, type: 3}
+  - {fileID: 3901623652260882035, guid: b6c5186b3fe77304cb4b299e1d407bea, type: 3}
+  - {fileID: 456115486062656005, guid: ea9e7e4c9e53af3448ff199fdb94e9fa, type: 3}
 --- !u!1 &139303140037481590
 GameObject:
   m_ObjectHideFlags: 0
