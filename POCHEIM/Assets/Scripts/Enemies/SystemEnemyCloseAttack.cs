@@ -42,28 +42,37 @@ public class SystemEnemyCloseAttack : MonoBehaviour
 
     void canAttack()
     {
-        if (!_cooldown.cooling)
+        if (!DebugModes.debugPlayerMode)
         {
-            _anim.SetTrigger("attackMelee");
-            _cooldown.cooling = true;
-
-            Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(attackHitbox.position, attackRange, player);
-
-            foreach (Collider2D player in hitPlayer)
+            if (!_cooldown.cooling)
             {
-                player.GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
-                
-            }
+                _anim.SetTrigger("attackMelee");
+                _cooldown.cooling = true;
 
+                Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(attackHitbox.position, attackRange, player);
+
+
+                foreach (Collider2D player in hitPlayer)
+                {
+                    player.GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
+
+                }
+
+
+            }
         }
 
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
-        if (attackHitbox == null)
+        if (DebugModes.debugMode)
+        {
+            if (attackHitbox == null)
             return;
 
-        Gizmos.DrawWireSphere(attackHitbox.position, attackRange);
+            Gizmos.DrawWireSphere(attackHitbox.position, attackRange);
+        }
+        
     }
 }

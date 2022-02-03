@@ -42,25 +42,31 @@ public class SystemEnemyRangeAttack : MonoBehaviour
 
     void canAttack()
     {
-        if (!_cooldown.cooling)
+        if (!DebugModes.debugPlayerMode)
         {
-            if (GetComponent<KotSystem>().distancePlayer <= shootingRange)
+            if (!_cooldown.cooling)
             {
-                _anim.SetTrigger("attackRange");
-                _cooldown.cooling = true;
+                if (GetComponent<KotSystem>().distancePlayer <= shootingRange)
+                {
+                    _anim.SetTrigger("attackRange");
+                    _cooldown.cooling = true;
 
-                Instantiate(bullet, bulletPlace.transform.position, Quaternion.identity); 
+                    Instantiate(bullet, bulletPlace.transform.position, Quaternion.identity);
+                }
+
+
             }
-
-            
         }
     }
 
    
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
-
-        Gizmos.DrawWireSphere(transform.position, shootingRange);
+        if (DebugModes.debugMode)
+        {
+           Gizmos.DrawWireSphere(transform.position, shootingRange);
+        }
+        
     }
 }

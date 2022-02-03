@@ -59,33 +59,35 @@
     <Analyzer Include="D:\Microsoft Visual Studio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ParticleController.cs" />
+    <Compile Include="Assets\Scripts\Scene\ParticleController.cs" />
     <Compile Include="Assets\Scripts\EnComun\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyGenerator.cs" />
     <Compile Include="Assets\Scripts\EnComun\CollisionSystem.cs" />
+    <Compile Include="Assets\Scripts\Dialog\TriggerDialog.cs" />
     <Compile Include="Assets\Scripts\PowerUp &amp; PickUps\SlowMo.cs" />
     <Compile Include="Assets\Scripts\DataManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\BulletSystem.cs" />
     <Compile Include="Assets\Scripts\PowerUp &amp; PickUps\CoinSystem.cs" />
     <Compile Include="Assets\Scripts\Player\SystemPlayerHitEnemy.cs" />
+    <Compile Include="Assets\Scripts\DebugModes.cs" />
     <Compile Include="Assets\Scripts\PoolingManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\DazedSystem.cs" />
     <Compile Include="Assets\Scripts\Enemies\SmileSystem.cs" />
     <Compile Include="Assets\Scripts\EnComun\DieSystem.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSystemData.cs" />
     <Compile Include="Assets\Scripts\Player\GameOver.cs" />
-    <Compile Include="Assets\Scripts\VolumeSystem.cs" />
     <Compile Include="Assets\Scripts\Enemies\SystemEnemyCloseAttack.cs" />
     <Compile Include="Assets\Scripts\RepeatingBackgound.cs" />
-    <Compile Include="Assets\Scripts\PlayCinematics.cs" />
+    <Compile Include="Assets\Scripts\Scene\PlayCinematics.cs" />
     <Compile Include="Assets\Scripts\Scene\CanvasUIScripts.cs" />
     <Compile Include="Assets\Scripts\PowerUp &amp; PickUps\HealthPowerUp.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\TeleportPlayer.cs" />
-    <Compile Include="Assets\Scripts\CustomTools.cs" />
+    <Compile Include="Assets\Scripts\Scene\CustomTools.cs" />
     <Compile Include="Assets\Scripts\InputSystemKeyboard.cs" />
     <Compile Include="Assets\Scripts\Player\GroundSystemChecker.cs" />
     <Compile Include="Assets\Scripts\PowerUp &amp; PickUps\CoinAmount.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Scene\AudioManager.cs" />
     <Compile Include="Assets\Scripts\WaveGenerator.cs" />
     <Compile Include="Assets\Scripts\EnComun\WeaponSystemCooldown.cs" />
     <Compile Include="Assets\Scripts\Enemies\SystemEnemyRangeAttack.cs" />
@@ -95,10 +97,10 @@
     <Compile Include="Assets\Scripts\Scene\LoadSeceneManager.cs" />
     <Compile Include="Assets\Scripts\HealthSystemUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovment.cs" />
-    <Compile Include="Assets\Scripts\SoundsSystemData.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Switches.cs" />
-    <Compile Include="Assets\Scripts\TriggerDialog.cs" />
+    <Compile Include="Assets\Scripts\Scene\SoundsSystemData.cs" />
+    <Compile Include="Assets\Scripts\BaseDatos\dbconn.cs" />
+    <Compile Include="Assets\Scripts\BaseDatos\DBManager.cs" />
+    <Compile Include="Assets\Scripts\BaseDatos\BDInventory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SceneSprites\PackMonsters\_SpriteSheetsInfo.txt" />
@@ -344,6 +346,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.12f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

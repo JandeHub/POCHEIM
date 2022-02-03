@@ -15,9 +15,6 @@ public class SystemPlayerHitEnemy : MonoBehaviour
     [SerializeField]
     private int damage;
 
-    public int combo;
-    public bool attacking;
-
     [SerializeField]
     private LayerMask enemies;
     
@@ -38,21 +35,7 @@ public class SystemPlayerHitEnemy : MonoBehaviour
         _cooldown = GetComponent<WeaponSystemCooldown>();
         _health = GetComponent<HealthSystem>();
     }
-    void Start_Combo()
-    {
-        attacking = false;
-        if( combo < 3 )
-        {
-            combo++;
-        }
-    }
-
-    void Finish_Combo()
-    {
-        combo = 0;
-        attacking = false;
-        
-    }
+   
 
    
 
@@ -60,22 +43,20 @@ public class SystemPlayerHitEnemy : MonoBehaviour
     {
         if (!_cooldown.cooling)
         {
-            if (!attacking)
+               
+            FindObjectOfType<AudioManager>().Play("SwordSlash");
+            _anim.SetTrigger("0");
+
+
+            _cooldown.cooling = true;
+
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackHitbox.position, attackRange, enemies);
+
+            foreach (Collider2D enemy in hitEnemies)
             {
-                attacking = true;
-                _anim.SetTrigger("" + combo);
-                FindObjectOfType<AudioManager>().Play("SwordSlash");
-
-
-                _cooldown.cooling = true;
-
-                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackHitbox.position, attackRange, enemies);
-
-                foreach (Collider2D enemy in hitEnemies)
-                {
-                    enemy.GetComponent<HealthSystem>().ReduceHealthEnemy(damage);
-                }
+                enemy.GetComponent<HealthSystem>().ReduceHealthEnemy(damage);
             }
+            
 
         }
        
@@ -83,11 +64,16 @@ public class SystemPlayerHitEnemy : MonoBehaviour
 
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
-        if (attackHitbox == null)
+        
+        if (DebugModes.debugMode)
+        {
+            if (attackHitbox == null)
             return;
 
-        Gizmos.DrawWireSphere(attackHitbox.position, attackRange);
+            Gizmos.DrawWireSphere(attackHitbox.position, attackRange);
+        }
+        
     }
 }

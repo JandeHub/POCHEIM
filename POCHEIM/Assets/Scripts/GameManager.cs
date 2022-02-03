@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public Transform[] dialogCommon;
     public Transform[] dialogCharacters;
     public Transform dialogText;
+    
+
 
   
 
@@ -28,10 +30,6 @@ public class GameManager : MonoBehaviour
 
     private int dialogIndex;
 
-
-    KeyCode[] debugKey = { KeyCode.S, KeyCode.T, KeyCode.A, KeyCode.R };
-    int debugKeyProgress = 0;
-
     
     void Start()
     {
@@ -42,37 +40,10 @@ public class GameManager : MonoBehaviour
         dialogTextC = dialogText.GetComponent<Text>();
     }
 
-    void OnDrawGizmos()
-    {
-        if (Switches.debugMode && Switches.debugDialogs)
-        {
-            if (showingDialog)
-            {
-                Handles.color = Color.white;
-                Handles.Label(dialogText.position - Vector3.up * 1.0f, "Dialog Id: " + dialogIndex);
-            }
-        }
-
-    }
-
 
     void Update()
     {
-        if (Switches.debugMode && Switches.debugDialogs)
-        {
-            if (Input.GetKeyDown(KeyCode.O))
-            {
-                showingDialog = true;
-                dialogIndex = 0;
-            }
-
-            if (Input.GetKeyDown(KeyCode.P))
-            {
-                dialogIndex = (dialogIndex + 1) % dialogsData.Length;
-            }
-        }
-
-
+      
         if (showingDialog)
         {
             
@@ -84,7 +55,6 @@ public class GameManager : MonoBehaviour
 
             dialogCharacters[character].gameObject.SetActive(true);
             dialogTextC.text = text;
-
 
             if (Input.GetKeyDown(KeyCode.L))
             {
@@ -98,21 +68,6 @@ public class GameManager : MonoBehaviour
             for (int i = 0; i < dialogCommon.Length; i++) { dialogCommon[i].gameObject.SetActive(false); }
             for (int i = 0; i < dialogCharacters.Length; i++) { dialogCharacters[i].gameObject.SetActive(false); }
 
-        }
-
-
-        // Debug
-        if (!Switches.debugMode)
-        {
-            if (Input.GetKeyDown(debugKey[debugKeyProgress]))
-            {
-                debugKeyProgress++;
-                if (debugKeyProgress == debugKey.Length)
-                {
-                    Switches.debugMode = true;
-                    Debug.Log("Debug mode on");
-                }
-            }
         }
 
 
