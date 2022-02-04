@@ -3,66 +3,90 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mono.Data.Sqlite;
 using System.Data;
+using UnityEngine.UI;
 
 public class DBManager : MonoBehaviour
 {
+    public static DBManager _instance;
+    public Text CoinsList;
+    private string dbName = "URI=file:Inventory.db";
+
     void Start()
     {
+        //crea la tabla de base de datos
+        CreateDB();
 
-        string conn = "URI=file:" + Application.dataPath + "/Plugins/BaseDatos.db";
-        IDbConnection dbconn;
+        DisplayCoins();
 
-        //void OpenConnection()
-        //{
-
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open();
-
-        //}
-
-        /*void CloseConnection()
-        {
-
-            dbconn.Close();
-        }*/
-
-        //void Insert()
-        //{
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string query = "INSERT INTO SCORES(name, score) VALUES('pedro', 300)";
-
-        dbcmd.CommandText = query;
-        dbcmd.ExecuteNonQuery();
-        //}
+        DontDestroyOnLoad(gameObject);
 
 
-        /*void Select()
-        {
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string query = "SELECT * FROM BaseDatos";
-
-            dbcmd.CommandText = query;
-            IDataReader reader = dbcmd.ExecuteReader();
-
-            while (reader.Read())
-            {
-                int ids = reader.GetInt32(0);
-                string n = reader.GetString(1);
-                int sc = reader.GetInt32(2);
-
-                Debug.Log("Id: " + ids + " Name: " + n + " Score: " + sc);
-            }
-        }
-
-        /*void Delete()
-        {
-            IDbCommand dbcmd = dbconn.CreateCommand();
-            string query = "DELETE FROM BaseDatos WHERE id = 3";
-
-            dbcmd.CommandText = query;
-            dbcmd.ExecuteNonQuery();
-        }*/
     }
 
+    public void CreateDB()
+    {
+        //crear la conexion con la base de datos
+        using (var dbconn = new SqliteConnection(dbName))
+        {
+            dbconn.Open();
+
+            using (var command = dbconn.CreateCommand())
+            {
+                command.CommandText = "CREATE TABLE IF NOT EXISTS coins (quantityCoins INT);";
+                command.ExecuteNonQuery();
+            }
+
+            dbconn.Close();
+        }
+
+    }
+
+    public void AddCoins(int quantityCoins)
+    {
+        using (var dbconn = new SqliteConnection(dbName))
+        {
+            dbconn.Open();
+
+            using (var command = dbconn.CreateCommand())
+            {
+                command.CommandText = "INSERT INTO coins (quantityCoins) VALUES (" + quantityCoins + ");";
+                command.ExecuteNonQuery();
+
+                Debug.Log("AÑADIDO MONEDA");
+            }
+
+            dbconn.Close();
+        }
+    }
+
+    public void DisplayCoins()
+    {
+        using (var dbconn = new SqliteConnection(dbName))
+        {
+            dbconn.Open();
+
+            using (var command = dbconn.CreateCommand())
+            {
+                command.CommandText = "SELECT * FROM coins;";
+
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        GameObject.Find("GameManager").GetComponent<CoinAmount>().amount = (int)reader["quantityCoins"];
+
+
+                    }
+                    reader.Close();
+
+                }
+
+            }
+
+            dbconn.Close();
+
+
+        }
+    }
 
 }

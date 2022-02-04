@@ -31,6 +31,7 @@ MonoBehaviour:
     - Assets/Animations/Enemy/Dummy/idle.anim
     - Assets/Animations/Enemy/Dummy/idle.anim.meta
     - Assets/Animations/Enemy/Kas/Monster4Pack_0 (1).controller
+    - Assets/Animations/Enemy/Kas/bullet/Monster4Pack_35 1.controller
     - Assets/Animations/Enemy/Kas/death.anim
     - Assets/Animations/Enemy/Smile/Monster3Pack_6.controller
     - Assets/Animations/Enemy/Smile/Monster3Pack_6.controller.meta
@@ -44,6 +45,43 @@ MonoBehaviour:
     - Assets/Animations/Enemy/Smile/run.anim.meta
     - Assets/Animations/Enemy/Smile/walk.anim
     - Assets/Animations/Enemy/Smile/walk.anim.meta
+    - Assets/Animations/Enemy/Sprout.meta
+    - Assets/Animations/Enemy/Sprout/Sprout_idle_0.controller
+    - Assets/Animations/Enemy/Sprout/Sprout_idle_0.controller.meta
+    - Assets/Animations/Enemy/Sprout/attack.anim
+    - Assets/Animations/Enemy/Sprout/attack.anim.meta
+    - Assets/Animations/Enemy/Sprout/death.anim
+    - Assets/Animations/Enemy/Sprout/death.anim.meta
+    - Assets/Animations/Enemy/Sprout/hurt.anim
+    - Assets/Animations/Enemy/Sprout/hurt.anim.meta
+    - Assets/Animations/Enemy/Sprout/idle.anim
+    - Assets/Animations/Enemy/Sprout/idle.anim.meta
+    - Assets/Animations/Enemy/Sprout/walk.anim
+    - Assets/Animations/Enemy/Sprout/walk.anim.meta
+    - Assets/Animations/OptionalPlayer.meta
+    - Assets/Animations/OptionalPlayer/doubleJump.anim
+    - Assets/Animations/OptionalPlayer/doubleJump.anim.meta
+    - Assets/Animations/OptionalPlayer/idle.anim
+    - Assets/Animations/OptionalPlayer/idle.anim.meta
+    - Assets/Animations/OptionalPlayer/jump.anim
+    - Assets/Animations/OptionalPlayer/jump.anim.meta
+    - Assets/Animations/OptionalPlayer/meleeattack.anim
+    - Assets/Animations/OptionalPlayer/meleeattack.anim.meta
+    - Assets/Animations/OptionalPlayer/playerController.controller
+    - Assets/Animations/OptionalPlayer/playerController.controller.meta
+    - Assets/Animations/OptionalPlayer/run.anim
+    - Assets/Animations/OptionalPlayer/run.anim.meta
+    - Assets/Animations/Player/attack.anim
+    - Assets/Animations/Player/attack2.anim
+    - Assets/Animations/Player/attack2.anim.meta
+    - Assets/Animations/Player/attack3.anim
+    - Assets/Animations/Player/attack3.anim.meta
+    - Assets/Animations/Player/hit.meta
+    - Assets/Animations/Player/hit/hit.anim
+    - Assets/Animations/Player/hit/hit.anim.meta
+    - Assets/Animations/Player/hit/hit03_0.controller
+    - Assets/Animations/Player/hit/hit03_0.controller.meta
+    - Assets/Animations/Player/idle sheet-Sheet_0.controller
     - Assets/Animations/PowerUps.meta
     - Assets/Animations/PowerUps/Clock.meta
     - Assets/Animations/PowerUps/Clock/frame_01.controller
@@ -59,9 +97,19 @@ MonoBehaviour:
     - Assets/Animations/Scene/Credit/Scroll.anim.meta
     - Assets/Animations/Scene/Credit/ScrollCredits.controller
     - Assets/Animations/Scene/Credit/ScrollCredits.controller.meta
+    - Assets/Animations/Scene/Crossfade.controller
     - Assets/Animations/Scene/PauseMenu.meta
     - Assets/Animations/Scene/PauseMenu/HighlightedAnim.controller
     - Assets/Animations/Scene/PauseMenu/HighlightedAnim.controller.meta
+    - Assets/Animations/Scene/Presentation.meta
+    - Assets/Animations/Scene/Presentation/ClickFade.controller
+    - Assets/Animations/Scene/Presentation/ClickFade.controller.meta
+    - Assets/Animations/Scene/Presentation/ScrollCloud.controller
+    - Assets/Animations/Scene/Presentation/ScrollCloud.controller.meta
+    - Assets/Animations/Scene/Presentation/ScrollClouds.anim
+    - Assets/Animations/Scene/Presentation/ScrollClouds.anim.meta
+    - Assets/Animations/Scene/Presentation/clickFade.anim
+    - Assets/Animations/Scene/Presentation/clickFade.anim.meta
     - Assets/Music & Sounds.meta
     - Assets/Music & Sounds/Mixer.meta
     - Assets/Music & Sounds/Mixer/EffectMaster.mixer
@@ -87,6 +135,8 @@ MonoBehaviour:
       by the Sea Start.wav.meta
     - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Story - The Princess'
       Lullaby.wav.meta
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Viento.aiff
+    - Assets/Music & Sounds/Open Air Adventure Music Pack Light/Viento.aiff.meta
     - Assets/Music & Sounds/Sounds.meta
     - Assets/Music & Sounds/Sounds/SwordSlash.ogg
     - Assets/Music & Sounds/Sounds/SwordSlash.ogg.meta
@@ -94,19 +144,48 @@ MonoBehaviour:
     - Assets/Music & Sounds/Sounds/damagePlayer.wav.meta
     - Assets/Music & Sounds/Volume/Master.mixer
     - Assets/Music & Sounds/Volume/Master.mixer.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/BaseDatos.db
+    - Assets/Plugins/BaseDatos.db-journal
+    - Assets/Plugins/BaseDatos.db-journal.meta
+    - Assets/Plugins/BaseDatos.db.meta
+    - Assets/Plugins/Mono.Data.Sqlite.dll
+    - Assets/Plugins/Mono.Data.Sqlite.dll.meta
+    - Assets/Plugins/sqlite3.def
+    - Assets/Plugins/sqlite3.def.meta
+    - Assets/Plugins/sqlite3.dll
+    - Assets/Plugins/sqlite3.dll.meta
+    - Assets/Prefabs/Apple.prefab
+    - Assets/Prefabs/Apple.prefab.meta
     - Assets/Prefabs/AudioManager.prefab
     - Assets/Prefabs/AudioManager.prefab.meta
     - Assets/Prefabs/Canvas.prefab
-    - Assets/Prefabs/Coin.prefab
+    - Assets/Prefabs/ClockPowerUp.prefab
+    - Assets/Prefabs/ClockPowerUp.prefab.meta
+    - Assets/Prefabs/DataManager.prefab
+    - Assets/Prefabs/DataManager.prefab.meta
     - Assets/Prefabs/GameManager.prefab
     - Assets/Prefabs/GameManager.prefab.meta
     - Assets/Prefabs/Kot.prefab
     - Assets/Prefabs/KotBullet.prefab
+    - Assets/Prefabs/OptionalPlayer.prefab
+    - Assets/Prefabs/OptionalPlayer.prefab.meta
     - Assets/Prefabs/PickUpEffect.prefab
     - Assets/Prefabs/PickUpEffect.prefab.meta
     - Assets/Prefabs/Player.prefab
+    - Assets/Prefabs/Potion.prefab
+    - Assets/Prefabs/Potion.prefab.meta
     - Assets/Prefabs/Smile.prefab
     - Assets/Prefabs/Smile.prefab.meta
+    - Assets/Prefabs/Sprout.prefab
+    - Assets/Prefabs/Sprout.prefab.meta
+    - Assets/Prefabs/blood.prefab
+    - Assets/Prefabs/blood.prefab.meta
+    - Assets/Prefabs/hit.prefab
+    - Assets/Prefabs/hit.prefab.meta
+    - Assets/Resources/Coin.prefab
+    - Assets/Resources/Coin.prefab.meta
+    - Assets/Resources/PlayerSystemData.asset
     - Assets/SceneSprites/Coins_16x16res.png
     - Assets/SceneSprites/Coins_16x16res.png.meta
     - Assets/SceneSprites/Dummy.png.meta
@@ -114,15 +193,505 @@ MonoBehaviour:
     - Assets/SceneSprites/Effect.png.meta
     - Assets/SceneSprites/Hud-menu.png
     - Assets/SceneSprites/Hud-menu.png.meta
+    - Assets/SceneSprites/Loot.meta
+    - Assets/SceneSprites/Loot/apple_b.png
+    - Assets/SceneSprites/Loot/apple_b.png.meta
+    - Assets/SceneSprites/Loot/compass_b.png
+    - Assets/SceneSprites/Loot/compass_b.png.meta
+    - Assets/SceneSprites/Loot/potion_1_b.png
+    - Assets/SceneSprites/Loot/potion_1_b.png.meta
+    - Assets/SceneSprites/Materials/Hoja.mat
+    - Assets/SceneSprites/Materials/Hoja.mat.meta
+    - Assets/SceneSprites/Materials/Portal.mat
+    - Assets/SceneSprites/Materials/Portal.mat.meta
+    - Assets/SceneSprites/Materials/Trail.mat
+    - Assets/SceneSprites/Materials/Trail.mat.meta
+    - Assets/SceneSprites/Materials/spr_coin_ama.mat
+    - Assets/SceneSprites/Materials/spr_coin_ama.mat.meta
     - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders.meta
     - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders/Pxiel Art UI borders.png
     - Assets/SceneSprites/MenuTiles/Pxiel Art UI borders/Pxiel Art UI borders.png.meta
+    - Assets/SceneSprites/MenuTiles/Subtle Dark Controls V1.0/Dash.png
+    - Assets/SceneSprites/MenuTiles/Subtle Dark Controls V1.0/Dash.png.meta
+    - Assets/SceneSprites/MenuTiles/Subtle Dark Controls V1.0/DobleSalto.png
+    - Assets/SceneSprites/MenuTiles/Subtle Dark Controls V1.0/Saltar.png
+    - Assets/SceneSprites/MenuTiles/The Dawn.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/1.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/1.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/2.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/2.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/3.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/3.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/4.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/4.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/5.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/5.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/6.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/6.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/7.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/7.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/8.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Layers/8.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/Reference-Image.png
+    - Assets/SceneSprites/MenuTiles/The Dawn/Reference-Image.png.meta
+    - Assets/SceneSprites/MenuTiles/The Dawn/The-Dwan.psd
+    - Assets/SceneSprites/MenuTiles/The Dawn/The-Dwan.psd.meta
+    - Assets/SceneSprites/MenuTiles/clouds.meta
+    - Assets/SceneSprites/MenuTiles/clouds/Sprite-0002.2.png
+    - Assets/SceneSprites/MenuTiles/clouds/Sprite-0002.2.png.meta
+    - Assets/SceneSprites/MenuTiles/clouds/arka plan 02.png
+    - Assets/SceneSprites/MenuTiles/clouds/arka plan 02.png.meta
     - Assets/SceneSprites/MenuUI.png
     - Assets/SceneSprites/MenuUI.png.meta
+    - Assets/SceneSprites/PackMonsters/GameEricBackground.png
+    - Assets/SceneSprites/PackMonsters/GameEricBackground.png.meta
+    - Assets/SceneSprites/PackMonsters/Monster1Pack.aseprite
+    - Assets/SceneSprites/PackMonsters/Monster1Pack.aseprite.meta
+    - Assets/SceneSprites/PackMonsters/Monster1Pack.gif
+    - Assets/SceneSprites/PackMonsters/Monster1Pack.gif.meta
+    - Assets/SceneSprites/PackMonsters/Monster1Pack.png
+    - Assets/SceneSprites/PackMonsters/Monster1Pack.png.meta
+    - Assets/SceneSprites/PackMonsters/Monster2Pack.aseprite
+    - Assets/SceneSprites/PackMonsters/Monster2Pack.aseprite.meta
+    - Assets/SceneSprites/PackMonsters/Monster2Pack.gif
+    - Assets/SceneSprites/PackMonsters/Monster2Pack.gif.meta
+    - Assets/SceneSprites/PackMonsters/Monster2Pack.png
+    - Assets/SceneSprites/PackMonsters/Monster2Pack.png.meta
     - Assets/SceneSprites/PackMonsters/Monster3Pack.png.meta
+    - Assets/SceneSprites/PackMonsters/Monster8Pack.png.meta
+    - Assets/SceneSprites/PackMonsters/Monster9Pack.aseprite
+    - Assets/SceneSprites/PackMonsters/Monster9Pack.aseprite.meta
+    - Assets/SceneSprites/PackMonsters/Monster9Pack.gif
+    - Assets/SceneSprites/PackMonsters/Monster9Pack.gif.meta
+    - Assets/SceneSprites/PackMonsters/Monster9Pack.png
+    - Assets/SceneSprites/PackMonsters/Monster9Pack.png.meta
+    - Assets/SceneSprites/PackMonsters/MonsterPackBackground.aseprite
+    - Assets/SceneSprites/PackMonsters/MonsterPackBackground.aseprite.meta
+    - Assets/SceneSprites/PlayerTiles/Red hood free (zipped) Folder/red hood itch
+      free Copy-Sheet.png.meta
     - Assets/SceneSprites/PlayerTiles/run turnaround-Sheet.png
     - Assets/SceneSprites/PlayerTiles/run turnaround-Sheet.png.meta
     - Assets/SceneSprites/Slider01.png.meta
+    - Assets/SceneSprites/Sprout.meta
+    - Assets/SceneSprites/Sprout/Attack.meta
+    - Assets/SceneSprites/Sprout/Attack/Sprout_attack.png
+    - Assets/SceneSprites/Sprout/Attack/Sprout_attack.png.meta
+    - Assets/SceneSprites/Sprout/Damage.meta
+    - Assets/SceneSprites/Sprout/Damage/Sprout-damage.png
+    - Assets/SceneSprites/Sprout/Damage/Sprout-damage.png.meta
+    - Assets/SceneSprites/Sprout/Death.meta
+    - Assets/SceneSprites/Sprout/Death/Sprout-death.png
+    - Assets/SceneSprites/Sprout/Death/Sprout-death.png.meta
+    - Assets/SceneSprites/Sprout/Idle.meta
+    - Assets/SceneSprites/Sprout/Idle/Sprout_idle.png
+    - Assets/SceneSprites/Sprout/Idle/Sprout_idle.png.meta
+    - Assets/SceneSprites/Sprout/Move.meta
+    - Assets/SceneSprites/Sprout/Move/Sprout_move.png
+    - Assets/SceneSprites/Sprout/Move/Sprout_move.png.meta
+    - Assets/SceneSprites/TilesNoFinales.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_01.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_01.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_02.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_02.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_03.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_03.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_04.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_04.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_05.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_05.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_06.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_06.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_07.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_07.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_08.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_08.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_09.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_09.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_10.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_10.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_100.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_100.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_101.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_101.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_102.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_102.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_103.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_103.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_104.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_104.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_105.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_105.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_106.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_106.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_107.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_107.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_108.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_108.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_109.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_109.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_11.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_11.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_110.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_110.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_111.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_111.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_112.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_112.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_113.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_113.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_114.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_114.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_115.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_115.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_116.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_116.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_117.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_117.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_118.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_118.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_119.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_119.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_12.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_12.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_120.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_120.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_121.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_121.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_122.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_122.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_123.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_123.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_124.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_124.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_125.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_125.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_126.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_126.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_127.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_127.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_128.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_128.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_129.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_129.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_13.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_13.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_130.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_130.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_131.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_131.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_132.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_132.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_133.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_133.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_134.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_134.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_135.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_135.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_136.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_136.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_137.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_137.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_138.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_138.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_139.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_139.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_14.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_14.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_140.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_140.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_141.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_141.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_142.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_142.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_143.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_143.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_144.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_144.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_145.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_145.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_146.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_146.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_147.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_147.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_148.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_148.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_149.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_149.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_15.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_15.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_150.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_150.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_151.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_151.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_152.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_152.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_153.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_153.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_154.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_154.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_155.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_155.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_156.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_156.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_157.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_157.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_158.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_158.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_159.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_159.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_16.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_16.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_160.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_160.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_161.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_161.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_162.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_162.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_163.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_163.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_164.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_164.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_165.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_165.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_166.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_166.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_167.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_167.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_168.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_168.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_169.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_169.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_17.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_17.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_170.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_170.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_171.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_171.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_172.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_172.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_173.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_173.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_174.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_174.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_175.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_175.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_176.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_176.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_177.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_177.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_178.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_178.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_179.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_179.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_18.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_18.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_180.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_180.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_181.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_181.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_182.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_182.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_183.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_183.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_184.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_184.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_185.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_185.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_186.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_186.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_187.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_187.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_188.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_188.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_189.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_189.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_19.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_19.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_190.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_190.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_191.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_191.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_192.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_192.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_193.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_193.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_194.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_194.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_195.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_195.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_196.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_196.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_197.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_197.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_198.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_198.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_199.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_199.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_20.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_20.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_21.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_21.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_22.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_22.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_23.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_23.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_24.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_24.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_25.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_25.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_26.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_26.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_27.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_27.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_28.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_28.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_29.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_29.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_30.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_30.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_31.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_31.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_32.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_32.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_33.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_33.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_34.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_34.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_35.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_35.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_36.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_36.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_37.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_37.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_38.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_38.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_39.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_39.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_40.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_40.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_41.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_41.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_42.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_42.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_43.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_43.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_44.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_44.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_45.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_45.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_46.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_46.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_47.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_47.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_48.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_48.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_49.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_49.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_50.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_50.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_51.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_51.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_52.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_52.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_53.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_53.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_54.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_54.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_55.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_55.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_56.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_56.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_57.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_57.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_58.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_58.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_59.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_59.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_60.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_60.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_61.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_61.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_62.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_62.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_63.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_63.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_64.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_64.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_65.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_65.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_66.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_66.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_67.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_67.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_68.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_68.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_69.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_69.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_70.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_70.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_71.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_71.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_72.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_72.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_73.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_73.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_74.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_74.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_75.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_75.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_76.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_76.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_77.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_77.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_78.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_78.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_79.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_79.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_80.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_80.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_81.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_81.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_82.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_82.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_83.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_83.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_84.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_84.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_85.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_85.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_86.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_86.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_87.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_87.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_88.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_88.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_89.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_89.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_90.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_90.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_91.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_91.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_92.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_92.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_93.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_93.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_94.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_94.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_95.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_95.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_96.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_96.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_97.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_97.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_98.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_98.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_99.png
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerAllAnim/Player_99.png.meta
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerTest01.aseprite
+    - Assets/SceneSprites/TilesNoFinales/PackCharacterPixelArt05/PlayerTest01.aseprite.meta
     - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter.meta
     - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_attack_1.png
     - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_attack_1.png.meta
@@ -136,31 +705,27 @@ MonoBehaviour:
     - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_idle.png.meta
     - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_walk.png
     - Assets/SceneSprites/TilesNoFinales/Skeleton_Lighter/SL_walk.png.meta
+    - Assets/SceneSprites/TilesNoFinales/[64x64] Dungeon Bricks Plain.png
+    - Assets/SceneSprites/TilesNoFinales/[64x64] Dungeon Bricks Plain.png.meta
+    - Assets/SceneSprites/TilesNoFinales/run turnaround-Sheet.png.meta
     - Assets/SceneSprites/TutorialTiles/Dummy.png
     - Assets/SceneSprites/TutorialTiles/Dummy.png.meta
+    - Assets/SceneSprites/blood.png
+    - Assets/SceneSprites/blood.png.meta
+    - Assets/SceneSprites/dashTrail.png
+    - Assets/SceneSprites/dashTrail.png.meta
+    - Assets/SceneSprites/dialog base.png
+    - Assets/SceneSprites/dialog base.png.meta
+    - Assets/SceneSprites/facePLayer.png
+    - Assets/SceneSprites/facePLayer.png.meta
     - Assets/SceneSprites/heart.png
     - Assets/SceneSprites/heart.png.meta
-    - Assets/SceneSprites/hourglass.meta
-    - Assets/SceneSprites/hourglass/frame_01.png
-    - Assets/SceneSprites/hourglass/frame_01.png.meta
-    - Assets/SceneSprites/hourglass/frame_02.png
-    - Assets/SceneSprites/hourglass/frame_02.png.meta
-    - Assets/SceneSprites/hourglass/frame_03.png
-    - Assets/SceneSprites/hourglass/frame_03.png.meta
-    - Assets/SceneSprites/hourglass/frame_04.png
-    - Assets/SceneSprites/hourglass/frame_04.png.meta
-    - Assets/SceneSprites/hourglass/frame_05.png
-    - Assets/SceneSprites/hourglass/frame_05.png.meta
-    - Assets/SceneSprites/hourglass/frame_06.png
-    - Assets/SceneSprites/hourglass/frame_06.png.meta
-    - Assets/SceneSprites/hourglass/frame_07.png
-    - Assets/SceneSprites/hourglass/frame_07.png.meta
-    - Assets/SceneSprites/hourglass/frame_08.png
-    - Assets/SceneSprites/hourglass/frame_08.png.meta
-    - Assets/SceneSprites/hourglass/frame_09.png
-    - Assets/SceneSprites/hourglass/frame_09.png.meta
-    - Assets/SceneSprites/hourglass/frame_10.png
-    - Assets/SceneSprites/hourglass/frame_10.png.meta
+    - Assets/SceneSprites/hit03.png
+    - Assets/SceneSprites/hit03.png.meta
+    - Assets/SceneSprites/hoja.png
+    - Assets/SceneSprites/hoja.png.meta
+    - Assets/SceneSprites/particlePortal.png
+    - Assets/SceneSprites/particlePortal.png.meta
     - Assets/SceneSprites/spr_coin_ama.png
     - Assets/SceneSprites/spr_coin_ama.png.meta
     - Assets/Scenes/Credits.unity
@@ -174,35 +739,72 @@ MonoBehaviour:
     - Assets/Scenes/Tutorial.unity
     - Assets/Scripts/AudioManager.cs
     - Assets/Scripts/AudioManager.cs.meta
-    - Assets/Scripts/CoinAmount.cs
-    - Assets/Scripts/CoinAmount.cs.meta
-    - Assets/Scripts/CoinSystem.cs
+    - Assets/Scripts/BaseDatos.meta
+    - Assets/Scripts/BaseDatos/BDInventory.cs
+    - Assets/Scripts/BaseDatos/BDInventory.cs.meta
+    - Assets/Scripts/BaseDatos/DBManager.cs
+    - Assets/Scripts/BaseDatos/DBManager.cs.meta
+    - Assets/Scripts/BaseDatos/dbconn.cs
+    - Assets/Scripts/BaseDatos/dbconn.cs.meta
     - Assets/Scripts/DataManager.cs
     - Assets/Scripts/DataManager.cs.meta
+    - Assets/Scripts/DebugModes.cs
+    - Assets/Scripts/DebugModes.cs.meta
+    - Assets/Scripts/Dialog.meta
+    - Assets/Scripts/Dialog/TriggerDialog.cs
+    - Assets/Scripts/Dialog/TriggerDialog.cs.meta
     - Assets/Scripts/EnComun/CollisionSystem.cs
     - Assets/Scripts/EnComun/DieSystem.cs
     - Assets/Scripts/EnComun/HealthSystem.cs
     - Assets/Scripts/Enemies/BulletSystem.cs
     - Assets/Scripts/Enemies/BulletSystem.cs.meta
+    - Assets/Scripts/Enemies/SystemEnemyCloseAttack.cs
+    - Assets/Scripts/Enemies/SystemEnemyRangeAttack.cs
+    - Assets/Scripts/GameManager.cs
+    - Assets/Scripts/GameManager.cs.meta
     - Assets/Scripts/HealthSystemUI.cs
+    - Assets/Scripts/InputSystemKeyboard.cs
     - Assets/Scripts/LoadSeceneManager.cs
     - Assets/Scripts/LoadSeceneManager.cs.meta
+    - Assets/Scripts/Player/GameOver.cs
     - Assets/Scripts/Player/GameOver.cs.meta
+    - Assets/Scripts/Player/PlayerMovment.cs
     - Assets/Scripts/Player/SystemPlayerHitEnemy.cs
-    - Assets/Scripts/PowerUpPick.cs
-    - Assets/Scripts/PowerUpPick.cs.meta
+    - Assets/Scripts/PowerUp & PickUps.meta
+    - Assets/Scripts/PowerUp & PickUps/ClockPowerUp.cs
+    - Assets/Scripts/PowerUp & PickUps/ClockPowerUp.cs.meta
+    - Assets/Scripts/PowerUp & PickUps/CoinAmount.cs
+    - Assets/Scripts/PowerUp & PickUps/CoinAmount.cs.meta
+    - Assets/Scripts/PowerUp & PickUps/CoinSystem.cs
+    - Assets/Scripts/PowerUp & PickUps/CoinSystem.cs.meta
+    - Assets/Scripts/PowerUp & PickUps/HealthPowerUp.cs
+    - Assets/Scripts/PowerUp & PickUps/HealthPowerUp.cs.meta
+    - Assets/Scripts/PowerUp & PickUps/PowerUpPick.cs
+    - Assets/Scripts/PowerUp & PickUps/PowerUpPick.cs.meta
+    - Assets/Scripts/PowerUp & PickUps/SlowMo.cs
+    - Assets/Scripts/PowerUp & PickUps/SlowMo.cs.meta
     - Assets/Scripts/Scene.meta
+    - Assets/Scripts/Scene/AudioManager.cs
+    - Assets/Scripts/Scene/AudioManager.cs.meta
+    - Assets/Scripts/Scene/BloodWithRecursividad.cs
+    - Assets/Scripts/Scene/BloodWithRecursividad.cs.meta
+    - Assets/Scripts/Scene/CanvasUIScripts.cs
     - Assets/Scripts/Scene/CanvasUIScripts.cs.meta
+    - Assets/Scripts/Scene/CustomTools.cs
+    - Assets/Scripts/Scene/CustomTools.cs.meta
     - Assets/Scripts/Scene/LoadSeceneManager.cs.meta
+    - Assets/Scripts/Scene/ParticleController.cs
+    - Assets/Scripts/Scene/ParticleController.cs.meta
+    - Assets/Scripts/Scene/PlayCinematics.cs
+    - Assets/Scripts/Scene/PlayCinematics.cs.meta
+    - Assets/Scripts/Scene/SoundsSystemData.cs
+    - Assets/Scripts/Scene/SoundsSystemData.cs.meta
     - Assets/Scripts/SoundsSystemData.cs
     - Assets/Scripts/SoundsSystemData.cs.meta
+    - Assets/Scripts/VolumeSystem.cs
+    - Assets/Scripts/VolumeSystem.cs.meta
     - Assets/Scripts/WaveGenerator.cs
     - Assets/Scripts/WaveGenerator.cs.meta
-    - Assets/SlowMoPack.meta
-    - Assets/SlowMoPack/SlowMo.cs
-    - Assets/SlowMoPack/SlowMo.cs.meta
-    - Assets/SlowMoPack/SlowMoTestScript.cs
-    - Assets/SlowMoPack/SlowMoTestScript.cs.meta
     - Assets/Sounds.meta
     - Assets/Sounds/Volume.meta
     - Assets/Sounds/Volume/Master.mixer
@@ -211,11 +813,20 @@ MonoBehaviour:
     - Assets/Sounds/backgroundMusic.mp3.meta
     - Assets/Sounds/coinSound.wav
     - Assets/Sounds/coinSound.wav.meta
+    - Assets/Tilemap/Dash.asset
+    - Assets/Tilemap/Dash.asset.meta
+    - Assets/Tilemap/Tilemap.prefab
+    - Assets/TimeLine/CinematicTriggerTimeline.playable
+    - Assets/TimeLine/CinematicTriggerTimeline.playable.meta
+    - Assets/TimeLine/SpawnCinematic.playable
+    - Assets/TimeLine/SpawnCinematic.playable.meta
+    - Assets/TimeLine/TeleportCinematic.playable
     - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/Physics2DSettings.asset
     - ProjectSettings/TagManager.asset
     - ProjectSettings/TimeManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

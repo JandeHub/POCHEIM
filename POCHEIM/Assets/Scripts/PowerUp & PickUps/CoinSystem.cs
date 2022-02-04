@@ -6,14 +6,14 @@ public class CoinSystem : MonoBehaviour
 {
 
     private SpriteRenderer _sp;
-    private BDInventory _inv;
+    private DBManager _db;
 
 
 
     void Start()
     {
         _sp = GetComponent<SpriteRenderer>();
-        _inv = GetComponent<BDInventory>();
+        _db = GetComponent<DBManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -22,11 +22,13 @@ public class CoinSystem : MonoBehaviour
         {
             _sp.enabled = false;
 
+            //DBManager._instance.AddCoins(1);
+
             CoinAmount._instance.Money(1f);
             FindObjectOfType<AudioManager>().Play("TakeCoin");
             
-            Destroy(gameObject, 0.5f);
-            GameObject.Find("DBase").GetComponent<BDInventory>().AddCoins(1);
+            Destroy(gameObject);
+            
 
             
         }

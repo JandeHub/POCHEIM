@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 139303139373380244}
   - component: {fileID: 139303139373380247}
   - component: {fileID: 139303139373380246}
+  - component: {fileID: 3581266482904043715}
   m_Layer: 7
   m_Name: Smile
   m_TagString: Enemy
@@ -39,6 +40,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 139303140037481591}
+  - {fileID: 2265381675075341177}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -268,6 +270,22 @@ MonoBehaviour:
   - {fileID: 4480244600022519073, guid: 396061ec253f3c741b1ce4b9dc25ea55, type: 3}
   - {fileID: 3901623652260882035, guid: b6c5186b3fe77304cb4b299e1d407bea, type: 3}
   - {fileID: 456115486062656005, guid: ea9e7e4c9e53af3448ff199fdb94e9fa, type: 3}
+--- !u!114 &3581266482904043715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139303139373380242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7afe8e9cd0bcb94890ae3fb30b97684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodPrefab: {fileID: 1590102570672091569, guid: a74d300d3f4267a41b0670f9aa3ff5e4, type: 3}
+  bloodOrigin: {fileID: 139303139373380241}
+  bloodScale: 0.15
+  minimumBloodScale: 0.1
 --- !u!1 &139303140037481590
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,4 +315,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 139303139373380241}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8183134265778420165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2265381675075341177}
+  m_Layer: 7
+  m_Name: BloodOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2265381675075341177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8183134265778420165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 139303139373380241}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

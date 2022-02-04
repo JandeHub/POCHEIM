@@ -43,6 +43,7 @@ public class HealthSystem : MonoBehaviour
         currentHealth -= damage;
 
         Instantiate(hitParticle, gameObject.transform.position, Quaternion.Euler(0.0f, 0.0f, UnityEngine.Random.Range(0.0f, 360.0f)));
+        GetComponent<BloodWithRecursividad>().doAction = true;
         _anim.SetTrigger("hurt");
         if(currentHealth <= 0)
         {

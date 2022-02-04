@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 26019799316433120}
   - component: {fileID: 26019799316433135}
   - component: {fileID: -482845943947070029}
+  - component: {fileID: 3215510742333298861}
   m_Layer: 7
   m_Name: Kot
   m_TagString: Enemy2
@@ -281,3 +282,19 @@ MonoBehaviour:
   - {fileID: 4480244600022519073, guid: 396061ec253f3c741b1ce4b9dc25ea55, type: 3}
   - {fileID: 3901623652260882035, guid: b6c5186b3fe77304cb4b299e1d407bea, type: 3}
   - {fileID: 456115486062656005, guid: ea9e7e4c9e53af3448ff199fdb94e9fa, type: 3}
+--- !u!114 &3215510742333298861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26019799316433124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7afe8e9cd0bcb94890ae3fb30b97684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodPrefab: {fileID: 1590102570672091569, guid: a74d300d3f4267a41b0670f9aa3ff5e4, type: 3}
+  bloodOrigin: {fileID: 26019799316433123}
+  bloodScale: 0.15
+  minimumBloodScale: 0.1
