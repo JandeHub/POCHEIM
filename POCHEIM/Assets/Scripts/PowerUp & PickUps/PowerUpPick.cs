@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PowerUpPick : MonoBehaviour
 {
 
     [SerializeField]
     private GameObject pickUpParticle;
+
+    public event Action HealthUp = delegate { };
 
     void OnEnable()
     {
@@ -19,15 +22,12 @@ public class PowerUpPick : MonoBehaviour
         GetComponent<CollisionSystem>().PickUpPowerUp -= pickUp;
 
     }
-    private void Start()
-    {
-       
-    }
     void pickUp()
     {
         
         Instantiate(pickUpParticle, transform.position, transform.rotation);
 
+        HealthUp();
         Destroy(gameObject);
         
     }

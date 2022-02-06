@@ -267,7 +267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218385423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.244669, y: 4.6089773, z: -10}
+  m_LocalPosition: {x: -16.383757, y: 4.6091075, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 35061299}
@@ -2380,7 +2380,6 @@ MonoBehaviour:
   index: 2
   gameManager: {fileID: 480018776}
   DialogCanvas: {fileID: 1623496189}
-  secondsDialog: 2
 --- !u!1 &437068052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2687,7 +2686,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7468672, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4348,6 +4347,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7355c97b5febb0409958ac94610d48b, type: 3}
+--- !u!224 &1336560572 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4044350100085146599, guid: f130ee0e5c99f6444b42cef1b76ba82b, type: 3}
+  m_PrefabInstance: {fileID: 5051068652486481952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1371668331
 GameObject:
   m_ObjectHideFlags: 0
@@ -4668,7 +4672,6 @@ MonoBehaviour:
   index: 3
   gameManager: {fileID: 480018776}
   DialogCanvas: {fileID: 1623496189}
-  secondsDialog: 4
 --- !u!61 &1553350442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4719,30 +4722,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1910186898, guid: f130ee0e5c99f6444b42cef1b76ba82b, type: 3}
   m_PrefabInstance: {fileID: 5051068652486481952}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1690317356 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4124628943884645663, guid: 5c46741cb7d33214792a5f2c7949cf1d, type: 3}
-  m_PrefabInstance: {fileID: 4124628943913587918}
-  m_PrefabAsset: {fileID: 0}
---- !u!320 &1690317357
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690317356}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 0df17dd6db8d0184f833d58c9650435e, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 7320898513435897972, guid: 0df17dd6db8d0184f833d58c9650435e, type: 2}
-    value: {fileID: 248144347}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &1750420055
 GameObject:
   m_ObjectHideFlags: 0
@@ -4855,10 +4834,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5051068652486481956}
     - target: {fileID: 1976587994, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
-      propertyPath: dialogsData.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1976587994, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
       propertyPath: dialogCommon.Array.data[0]
       value: 
       objectReference: {fileID: 5051068652486481958}
@@ -4867,21 +4842,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5051068652486481956}
     - target: {fileID: 1976587994, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
+      propertyPath: dialogCommon.Array.data[2]
+      value: 
+      objectReference: {fileID: 1336560572}
+    - target: {fileID: 1976587994, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
       propertyPath: dialogCharacters.Array.data[0]
       value: 
       objectReference: {fileID: 5051068652486481957}
-    - target: {fileID: 1976587994, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
-      propertyPath: dialogsData.Array.data[1].text
-      value: "\xA1\xBFDonde estoy?!, qu\xE9 es este lugar, parece un lugar oscuro"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1976587994, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
-      propertyPath: dialogsData.Array.data[2].text
-      value: "\xBFDonde estoy? \xBFDonde esta mi casa?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1976587994, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
-      propertyPath: dialogsData.Array.data[3].text
-      value: "AYUDAA!!!! NO S\xC9 LO QU\xC9 EST\xC1 PASANDO!!!"
-      objectReference: {fileID: 0}
     - target: {fileID: 43760009051919954, guid: 5156333af679aba43b5272baf8bf4867, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -10158,7 +10125,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1000
   currentHealth: 0
-  hitParticle: {fileID: 5438982628413977535, guid: 428cf8e5c04382b4ba204c3d00c9bc4f, type: 3}
 --- !u!58 &2075144597
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10493,6 +10459,10 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1171888676}
+    - target: {fileID: 1910186898, guid: f130ee0e5c99f6444b42cef1b76ba82b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5051068651318500552, guid: f130ee0e5c99f6444b42cef1b76ba82b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

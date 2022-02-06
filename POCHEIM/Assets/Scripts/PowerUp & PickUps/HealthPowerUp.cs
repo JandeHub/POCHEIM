@@ -5,16 +5,21 @@ using UnityEngine;
 public class HealthPowerUp : MonoBehaviour
 {
     public float multiplier = 1.4f;
-
-    // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
-        
+        GetComponent<PowerUpPick>().HealthUp += Health;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnDisable()
     {
+        GetComponent<PowerUpPick>().HealthUp -= Health;
+
+    }
+
+    void Health()
+    {
+        FindObjectOfType<AudioManager>().Play("HealthUp");
         HealthSystem playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<HealthSystem>();
 
         playerStats.currentHealth *= multiplier;

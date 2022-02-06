@@ -6,14 +6,11 @@ using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
+   
     public Transform[] dialogCommon;
     public Transform[] dialogCharacters;
     public Transform dialogText;
     
-
-
-  
-
     [System.Serializable]
     public struct DialogData
     {

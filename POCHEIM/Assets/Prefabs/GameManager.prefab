@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6d988bcccc08a4d8bd7f503f9d9652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amount: 0
   amountText: {fileID: 0}
 --- !u!114 &1976587994
 MonoBehaviour:
@@ -61,6 +60,7 @@ MonoBehaviour:
   dialogCommon:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   dialogCharacters:
   - {fileID: 0}
   dialogText: {fileID: 0}
@@ -68,4 +68,8 @@ MonoBehaviour:
   - character: 0
     text: AAAAAAAAAAA!!!
   - character: 0
-    text: "\xA1\xBFDonde estoy?!, que es este lugar, parece un lugar oscuro"
+    text: "\xA1\xBFDonde estoy?!, qu\xE9 es este lugar, parece un lugar oscuro"
+  - character: 0
+    text: "\xBFDonde estoy? \xBFDonde esta mi casa?"
+  - character: 0
+    text: "AYUDAA!!!! NO S\xC9 LO QU\xC9 EST\xC1 PASANDO!!!"

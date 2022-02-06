@@ -32,25 +32,22 @@ public class DieSystem : MonoBehaviour
         Debug.Log("Enemy died");
 
         dead = true;
+        FindObjectOfType<AudioManager>().Play("DeadEnemy");
         _anim.SetBool("dead", true);
 
         int lootRarity = Random.Range(0, 101);
 
-        if(lootRarity < 3)
+        if(lootRarity < 10)
         {
-            Instantiate(lootItems[0].gameObject, transform.position, Quaternion.identity);
-        }
-        else if(lootRarity < 10)
-        {
-            Instantiate(lootItems[1].gameObject, transform.position, Quaternion.identity);
+            Instantiate(lootItems[1].gameObject, new Vector3(transform.position.x, transform.position.y + 2, 0), Quaternion.identity);
         }
         else if(lootRarity < 40)
         {
-            Instantiate(lootItems[2].gameObject, new Vector3(transform.position.x, transform.position.y + 5, 0), Quaternion.identity);
+            Instantiate(lootItems[2].gameObject, new Vector3(transform.position.x, transform.position.y + 2, 0), Quaternion.identity);
         }
         else if(lootRarity < 70)
         {
-            Instantiate(lootItems[3].gameObject, transform.position, Quaternion.identity);
+            Instantiate(lootItems[3].gameObject, new Vector3(transform.position.x, transform.position.y + 2, 0), Quaternion.identity);
         }
         
 

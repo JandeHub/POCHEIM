@@ -11,6 +11,18 @@ public class DBManager : MonoBehaviour
     public Text CoinsList;
     private string dbName = "URI=file:Inventory.db";
 
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else if (_instance != null)
+        {
+            Destroy(gameObject);
+        }
+    }
+    
     void Start()
     {
         //crea la tabla de base de datos

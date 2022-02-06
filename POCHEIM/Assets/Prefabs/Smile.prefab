@@ -192,7 +192,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  hitParticle: {fileID: 5438982628413977535, guid: 428cf8e5c04382b4ba204c3d00c9bc4f, type: 3}
 --- !u!114 &139303139373380250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,7 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloodPrefab: {fileID: 1590102570672091569, guid: a74d300d3f4267a41b0670f9aa3ff5e4, type: 3}
   bloodOrigin: {fileID: 139303139373380241}
-  bloodScale: 0.15
+  bloodScale: 0.2
   minimumBloodScale: 0.1
 --- !u!1 &139303140037481590
 GameObject:
@@ -340,7 +339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8183134265778420165}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.045, y: -0.105, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 139303139373380241}

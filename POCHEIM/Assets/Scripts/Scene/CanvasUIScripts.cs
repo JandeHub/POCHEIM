@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CanvasUIScripts : MonoBehaviour
 {
     private static bool GameIsPaused;
+    public static CanvasUIScripts _instance;
 
     [SerializeField]
     private GameObject pauseMenuUI;
@@ -31,8 +32,10 @@ public class CanvasUIScripts : MonoBehaviour
         GameObject.FindWithTag("UI").GetComponent<InputSystemKeyboard>().OnPause += GamePaused;
 
     }
+
     void Start()
     {
+   
         _health = GetComponent<HealthSystem>();
         GameIsPaused = false;
 
@@ -72,12 +75,14 @@ public class CanvasUIScripts : MonoBehaviour
     void GameOver()
     {
         gameOver.SetActive(true);
-        Destroy(gameObject);
+        
 
     }
 
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+   
     }
 }

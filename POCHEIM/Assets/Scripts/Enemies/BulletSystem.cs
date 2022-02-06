@@ -16,17 +16,6 @@ public class BulletSystem : MonoBehaviour
     private Rigidbody2D _rb;
     private Animator _anim;
 
-    void OnEnable()
-    {
-        GetComponent<CollisionSystem>().DamageBullet -= bulletDamage;
-
-    }
-
-    void OnDisable()
-    {
-        GetComponent<CollisionSystem>().DamageBullet -= bulletDamage;
-    }
-
     void Start()
     {
         if (GameObject.FindWithTag("Player") != null)
@@ -36,8 +25,8 @@ public class BulletSystem : MonoBehaviour
 
         _rb = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
-        
 
+        FindObjectOfType<AudioManager>().Play("BulletSound");
         target = GameObject.FindGameObjectWithTag("Player");
         Vector2 moveDirection = (target.transform.position - transform.position).normalized * bulletSpeed;
         _rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
@@ -57,7 +46,7 @@ public class BulletSystem : MonoBehaviour
 
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Destroy(gameObject, 3);
     }
@@ -68,20 +57,17 @@ public class BulletSystem : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Hitted");
+  
+            
             collision.GetComponent<HealthSystem>().ReduceHealthPlayer(damage);
-
             _anim.SetTrigger("destroy");
-            Destroy(gameObject, 1);
-
+            
         }
 
+        
+
     }
 
-    void bulletDamage()
-    {
-        Debug.Log("Hitted");
-    }
     
 
 

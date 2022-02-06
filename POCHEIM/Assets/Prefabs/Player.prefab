@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 4124628943884645659}
   - component: {fileID: -985416228968623466}
   - component: {fileID: 1560082276}
+  - component: {fileID: 1690317357}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -144,7 +145,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -304112123
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 5770251550782387183, guid: bf893f3fdd1a02b4989e3c69f85cb13f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -280,8 +281,8 @@ MonoBehaviour:
   _velocity: 4
   jumpSpeed: 7
   dashSpeed: 35
-  startDashCooldown: 0.5
-  dashTime: 0.2
+  startDashCooldown: 0.15
+  dashTime: 0.15
 --- !u!114 &4124628943884645661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,7 +384,7 @@ TrailRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 557117261
-  m_SortingLayer: 7
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Time: 0.5
   m_Parameters:
@@ -415,7 +416,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 1, g: 1, b: 1, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -423,7 +424,7 @@ TrailRenderer:
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 19275
+      ctime0: 193
       ctime1: 65535
       ctime2: 65535
       ctime3: 0
@@ -445,9 +446,28 @@ TrailRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
+    textureMode: 1
     shadowBias: 0.5
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 0
+--- !u!320 &1690317357
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124628943884645663}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 0df17dd6db8d0184f833d58c9650435e, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 7320898513435897972, guid: 0df17dd6db8d0184f833d58c9650435e, type: 2}
+    value: {fileID: 4124628943884645653}
+  m_ExposedReferences:
+    m_References: []

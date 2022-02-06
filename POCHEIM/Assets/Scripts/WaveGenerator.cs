@@ -10,7 +10,6 @@ using UnityEngine.UI;
         public float delay;
         public Transform enemyPrefab;
         public int spawnCount;
-        public string message;
     }
 
     [System.Serializable]
@@ -49,7 +48,6 @@ public class WaveGenerator : MonoBehaviour
         _delayFactor = 1.0f;
 
         yield return new WaitForSeconds(startWaveSeconds);
-        waveText.text = startWaveSeconds.ToString();
         
 
         while (true)
@@ -59,13 +57,11 @@ public class WaveGenerator : MonoBehaviour
                 _currentWave = W;
                 foreach(WaveAction Action in W.actions)
                 {
+                    waveText.text = W.name.ToString();
+
                     if (Action.delay > 0)
                         yield return new WaitForSeconds(Action.delay * _delayFactor);
 
-                    if(Action.message != "")
-                    {
-                        waveText.text = Action.message.ToString();
-                    }
                     if(Action.enemyPrefab != null && Action.spawnCount > 0)
                     {
                         for(int i = 0; i < Action.spawnCount; i++)

@@ -53,4 +53,12 @@ public class TransformacionesEstrellas : MonoBehaviour
         Graphics.DrawMeshInstanced(model, 0, mEstrellas, matricesEstrellasEscala);
 
     }
+
+    private void OnDrawGizmos()
+    {
+        if(DebugModes.debugTransformStar)
+        {
+           
+        }
+    }
 }

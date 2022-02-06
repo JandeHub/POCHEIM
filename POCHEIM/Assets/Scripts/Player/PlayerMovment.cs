@@ -81,13 +81,16 @@ public class PlayerMovment : MonoBehaviour
         //Salto
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            
             if (_ground.isGrounded)
             {
+                FindObjectOfType<AudioManager>().Play("Jump");
                 _rb.velocity = new Vector2(_rb.velocity.x, jumpSpeed);
                 _anim.SetTrigger("jump");
             }
             else if (doubleJump)
             {
+                FindObjectOfType<AudioManager>().Play("Jump");
                 _rb.velocity = new Vector2(_rb.velocity.x, jumpSpeed * 1.25f);
                 _anim.SetTrigger("doubleJump");
 
@@ -110,6 +113,7 @@ public class PlayerMovment : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.K) && canDash && dashCooldown <= 0)
         {
+            
             isDashing = true;
             canDash = false;
             _trail.emitting = true;

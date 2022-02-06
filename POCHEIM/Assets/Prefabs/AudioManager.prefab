@@ -50,7 +50,6 @@ MonoBehaviour:
     volume: 1
     pitch: 2
     loop: 0
-    playOnAwake: 0
     source: {fileID: 0}
   - name: HurtPlayer
     clip: {fileID: 8300000, guid: 9f51fc0fdae504942a16237bd2614a3e, type: 3}
@@ -58,7 +57,6 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
-    playOnAwake: 0
     source: {fileID: 0}
   - name: TakeCoin
     clip: {fileID: 8300000, guid: f8b5b18fe390bab44b5933861ab462d9, type: 3}
@@ -66,7 +64,41 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
-    playOnAwake: 0
+    source: {fileID: 0}
+  - name: HealthUp
+    clip: {fileID: 8300000, guid: 59f6d0fa47bac0048b7ad33c56887e4b, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BulletSound
+    clip: {fileID: 8300000, guid: 77409e760bca3cf448c78fe9ef3cae40, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DeadEnemy
+    clip: {fileID: 8300000, guid: 9b270ba0776dcd0418602933dbedad85, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: cbe012e4257d6e4428575847e2a7ed04, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 9e54481eeac23cb44ad7395c4874802f, type: 3}
+    mixer: {fileID: 24300002, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
   musicMixer: {fileID: 24100000, guid: 8d85d5de50d8b2b428902ed4cd127cb0, type: 2}
   effectMixer: {fileID: 24100000, guid: 256e666ec49616e47867c0bd3c771c79, type: 2}

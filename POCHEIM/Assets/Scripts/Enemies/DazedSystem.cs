@@ -27,7 +27,7 @@ public class DazedSystem : MonoBehaviour
             if (dazedTime <= 0)
             {
                 _smile.GetComponent<SmileSystem>().speed = 2;
-                _kot.GetComponent<KotSystem>().speed = 3;
+                _kot.GetComponent<KotSystem>().speed = 4;
 
             }
             else

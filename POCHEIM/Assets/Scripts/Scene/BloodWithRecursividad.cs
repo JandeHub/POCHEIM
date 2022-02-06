@@ -16,10 +16,11 @@ public class BloodWithRecursividad : MonoBehaviour
 
     void Update()
     {
-        Vector3 position1 = new Vector3(Random.Range(0.4f, 0.7f), Random.Range(0.4f, 0.7f), 0);
-        Vector3 position2 = new Vector3(Random.Range(0.4f, 0.7f), Random.Range(0.4f, 0.7f), 0);
-        Vector3 position3 = new Vector3(Random.Range(0.4f, 0.7f), Random.Range(0.4f, 0.7f), 0);
+        
+        Vector3 position2 = new Vector3(Random.Range(-0.6f, 0.6f), Random.Range(0.4f, 0.7f), 0);
+        Vector3 position3 = new Vector3(Random.Range(-0.6f, 0.6f), Random.Range(0.4f, 0.7f), 0);
 
+  
         if (doAction)
         {
             GameObject go = GameObject.Find("Blood");
@@ -33,7 +34,7 @@ public class BloodWithRecursividad : MonoBehaviour
 
             
             
-            GenerateBlood(go.transform, bloodOrigin.position + position1, Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f)),
+            GenerateBlood(go.transform, bloodOrigin.position, Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f)),
                     new Vector3(Random.Range(minimumBloodScale, bloodScale), Random.Range(minimumBloodScale, bloodScale),
                     Random.Range(minimumBloodScale, bloodScale)));
 

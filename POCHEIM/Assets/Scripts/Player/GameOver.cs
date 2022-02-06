@@ -6,10 +6,6 @@ using UnityEngine;
 public class GameOver : MonoBehaviour
 {
     public GameObject gameOver;
-
-
-     
-
     private HealthSystem _health;
 
 

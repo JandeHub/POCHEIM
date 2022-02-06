@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: -5423699256720914046}
   - component: {fileID: 7716915964210111545}
   - component: {fileID: -48034489418982994}
-  - component: {fileID: 4838156096032405585}
-  m_Layer: 7
+  - component: {fileID: 910005899}
+  m_Layer: 12
   m_Name: KotBullet
-  m_TagString: Untagged
+  m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,9 +141,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.023972291, y: 0.0026636242}
+  m_Offset: {x: -0.023972286, y: 0.0038058758}
   serializedVersion: 2
-  m_Radius: 0.072285786
+  m_Radius: 0.08142362
 --- !u!114 &-48034489418982994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,9 +158,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
   target: {fileID: 4124628943884645663, guid: 5c46741cb7d33214792a5f2c7949cf1d, type: 3}
-  bulletSpeed: 3
-  damage: 20
---- !u!114 &4838156096032405585
+  bulletSpeed: 5
+  damage: 10
+--- !u!114 &910005899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,6 +169,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3007755255638175777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b752e132c1546a54bbebc6ccdf58b34c, type: 3}
+  m_Script: {fileID: 11500000, guid: 84e9388c2b718a8499b7a687c1f935d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

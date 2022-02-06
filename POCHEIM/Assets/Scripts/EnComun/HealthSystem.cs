@@ -7,10 +7,9 @@ public class HealthSystem : MonoBehaviour
 {
     [SerializeField]
     private float maxHealth;
-    
     public float currentHealth;
-    [SerializeField]
-    private GameObject hitParticle;
+
+    public int died { get; set; }
 
     private Animator _anim;
     private DazedSystem _dazed;
@@ -32,7 +31,7 @@ public class HealthSystem : MonoBehaviour
         _dazed = GetComponent<DazedSystem>();
         _healthUI = GetComponent<HealthSystemUI>();
 
-
+        died = 0;
         currentHealth = maxHealth;
         MaxHealth(maxHealth);
 
@@ -42,7 +41,6 @@ public class HealthSystem : MonoBehaviour
         _dazed.dazedTime = _dazed.startdazedTime;
         currentHealth -= damage;
 
-        Instantiate(hitParticle, gameObject.transform.position, Quaternion.Euler(0.0f, 0.0f, UnityEngine.Random.Range(0.0f, 360.0f)));
         GetComponent<BloodWithRecursividad>().doAction = true;
         _anim.SetTrigger("hurt");
         if(currentHealth <= 0)
@@ -61,6 +59,7 @@ public class HealthSystem : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            died = 1;
             JumpGameOver();
         }
     }

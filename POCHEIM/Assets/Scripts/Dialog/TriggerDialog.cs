@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class TriggerDialog : MonoBehaviour
 {
+    
     public int index;
     public Transform gameManager;
     public GameObject DialogCanvas;
-
-    public float secondsDialog = 5f;
 
 
     GameManager gameManagerC;
@@ -25,20 +24,13 @@ public class TriggerDialog : MonoBehaviour
         DialogCanvas.SetActive(true);
         gameManagerC.OnTriggerDialog(index);
 
-        Destroy(gameObject, 4f);
-       
+        Destroy(gameObject, 3f);
+
+
+
     } 
     void FixedUpdate()
     {
-        if(secondsDialog <= 0f)
-        {
-            DialogCanvas.SetActive(false);
-            
-        }
-        else
-        {
-            secondsDialog -= Time.deltaTime;
-        }
 
         if(DebugModes.debugDialogs)
         {

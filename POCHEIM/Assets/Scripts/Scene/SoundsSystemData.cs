@@ -18,7 +18,6 @@ public class SoundsSystemData
     [Range(.1f, 3f)]
     public float pitch;
     public bool loop;
-    public bool playOnAwake;
     
 
     [HideInInspector]

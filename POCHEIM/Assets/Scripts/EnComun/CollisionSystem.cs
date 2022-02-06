@@ -18,12 +18,6 @@ public class CollisionSystem : MonoBehaviour
             
         }
 
-        if(other.CompareTag("Player"))
-        {
-            DamageBullet();
-            
-        }
-
         
 
         
